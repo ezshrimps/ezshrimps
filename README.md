@@ -9,11 +9,11 @@
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 10-26 | **Bedrock Robotics** | Mobility & Logistics | Series C | $600M | CapitalG + |
-| 10-26 | **趋境科技** | Optimization & Evals | Series B | $181M | 浙财资本 + |
 | 10-27 | **General Compute** | Compute | Series A | $100M | Blackbird Ventures + |
 | 10-26 | **Nevis** | Fintech | Series B | $70M | EQT Ventures |
+| 10-27 | **Lumaril** | Manufacturing | Series A | $66M | — |
 | 10-27 | **Hyphenate** | Enterprise | Series A | $45M | Nexus Venture Partners |
+| 10-27 | **Machenta** | Vertical Models | Seed | $40M | Creandum + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -55,6 +55,6 @@
   <a href="https://svtr.ai"><img src="https://img.shields.io/badge/work-svtr.ai-0d1117?style=flat-square&logo=databricks&logoColor=ffa657"></a>
   <br>
 <!-- UPDATED:START -->
-<sub>last sync: 2026-10-28 06:41 UTC</sub>
+<sub>last sync: 2026-10-28 18:01 UTC</sub>
 <!-- UPDATED:END -->
 </p>
