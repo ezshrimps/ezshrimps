@@ -9,11 +9,11 @@
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 10-27 | **General Compute** | Compute | Series A | $100M | Blackbird Ventures + |
-| 10-26 | **Nevis** | Fintech | Series B | $70M | EQT Ventures |
-| 10-27 | **Lumaril** | Manufacturing | Series A | $66M | — |
-| 10-27 | **Hyphenate** | Enterprise | Series A | $45M | Nexus Venture Partners |
-| 10-27 | **Machenta** | Vertical Models | Seed | $40M | Creandum + |
+| 10-28 | **微纳核芯** | Compute | Series C | $139M | 建投投资 |
+| 10-28 | **Foundry Robotics** | Manufacturing | Series A | $100M | Marlinspike |
+| 10-28 | **脑虎科技** | Life Sciences | Series B | $97.2M | 国投聚力 + |
+| 10-28 | **Broccoli** | Vertical Industry | Series B | $30M | Khosla Ventures |
+| 10-27 | **Hyperbolic** | Compute | Series A | $30M | Walden Catalyst Ventures |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -32,10 +32,10 @@
 
 <!-- ACTIVITY:START -->
 - `2026-05-04` [BP-Parser-for-SVTR](https://github.com/ezshrimps/BP-Parser-for-SVTR)
-- `2026-04-13` [ShrimpDiet](https://github.com/ezshrimps/ShrimpDiet)
 - `2026-03-21` [AI-Image-Gen-Arena-with-Replicate](https://github.com/ezshrimps/AI-Image-Gen-Arena-with-Replicate)
 - `2026-03-19` [ShrimpLyricsParser](https://github.com/ezshrimps/ShrimpLyricsParser)
 - `2026-03-19` [ShrimpWxBackend](https://github.com/ezshrimps/ShrimpWxBackend)
+- `2026-03-19` [Japanese-Songs-Lyrics-Parser](https://github.com/ezshrimps/Japanese-Songs-Lyrics-Parser)
 <!-- ACTIVITY:END -->
 
 <details>
@@ -55,6 +55,6 @@
   <a href="https://svtr.ai"><img src="https://img.shields.io/badge/work-svtr.ai-0d1117?style=flat-square&logo=databricks&logoColor=ffa657"></a>
   <br>
 <!-- UPDATED:START -->
-<sub>last sync: 2026-10-28 18:02 UTC</sub>
+<sub>last sync: 2026-10-29 20:43 UTC</sub>
 <!-- UPDATED:END -->
 </p>
