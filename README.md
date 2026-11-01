@@ -9,11 +9,11 @@
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
+| 10-30 | **Fractile** | Compute | Series C | $774M | 红点创投 + |
 | 10-29 | **Serval** | Developer Tools | Series C | $150M | 红杉资本（美国） |
 | 10-29 | **Collective Global** | Fintech | Series B | $100M | General Catalyst + |
 | 10-29 | **Solink** | Retail & Marketing | — | $100M | Vertu Capital |
-| 10-29 | **Wabi** | Developer Tools | Series A | $55M | IVP |
-| 10-29 | **Opentrons** | Life Sciences | Series D+ | $40M | Avego |
+| 10-30 | **Setara Biosciences** | Life Sciences | Series A | $90M | — |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -55,6 +55,6 @@
   <a href="https://svtr.ai"><img src="https://img.shields.io/badge/work-svtr.ai-0d1117?style=flat-square&logo=databricks&logoColor=ffa657"></a>
   <br>
 <!-- UPDATED:START -->
-<sub>last sync: 2026-10-30 20:13 UTC</sub>
+<sub>last sync: 2026-11-01 19:56 UTC</sub>
 <!-- UPDATED:END -->
 </p>
