@@ -75,8 +75,6 @@ ANIM = (
     "@keyframes cur{0%,49.9%{opacity:1}50%,100%{opacity:0}}.cur{animation:cur 1.1s steps(1) infinite}"
     "@keyframes fade{0%,6%{opacity:0;transform:translateY(6px)}14%,86%{opacity:1;transform:none}96%,100%{opacity:0}}"
     ".fade{opacity:0;animation:fade 8s ease-out infinite;transform-box:fill-box}"
-    "@keyframes grow{0%,4%{transform:scaleY(0)}18%,86%{transform:scaleY(1)}96%,100%{transform:scaleY(0)}}"
-    ".grow{transform-box:fill-box;transform-origin:center bottom;animation:grow 8s cubic-bezier(.3,0,.2,1) infinite}"
     "@keyframes wide{0%,6%{transform:scaleX(0)}24%,86%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}"
     ".wide{transform-box:fill-box;transform-origin:left center;animation:wide 8s cubic-bezier(.6,0,.2,1) infinite}"
     "@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.bob{animation:bob 5s ease-in-out infinite}"
@@ -84,8 +82,6 @@ ANIM = (
     "@keyframes scan{0%{transform:translateY(0)}50%{transform:translateY(176px)}100%{transform:translateY(0)}}.scan{animation:scan 3.2s ease-in-out infinite}"
     "@keyframes drift{from{transform:translateX(-40px)}to{transform:translateX(40px)}}.drift{animation:drift 9s ease-in-out infinite alternate}"
     "@keyframes lit{0%,100%{opacity:.08}12%,40%{opacity:1}}.lit{animation:lit 6s ease-in-out infinite}"
-    "@keyframes out{0%{transform:scale(.15);opacity:0}15%{opacity:1}100%{transform:scale(1);opacity:0}}"
-    ".out{transform-box:view-box;animation:out 2.4s linear infinite}"
     "@keyframes pulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}"
     ".pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}"
     "@keyframes sw{0%{transform:translateX(0)}70%,100%{transform:translateX(1620px)}}.sw{animation:sw 4.5s cubic-bezier(.45,0,.25,1) infinite}"
@@ -129,8 +125,8 @@ def header():
     b.append(f'<rect class="cur" x="{cx:.0f}" y="72" width="12" height="32" fill="#FFA657"/>')
     b.append(T("Curiosity-driven. Shipping small AI tools people actually use.", 640, 134, 16, "sans", MUTED))
     x = 640
-    for i, (label, color) in enumerate([("#1 AI 工具", "#FFA657"), ("#2 学日语", "#39D3BB"),
-                                         ("#3 生活", "#7EE787"), ("#4 音游", "#FF6BC1")]):
+    for i, (label, color) in enumerate([("#1 BP-PARSER", "#FFA657"), ("#2 学日语", "#39D3BB"),
+                                         ("#3 TRIZ", "#F2CF1D"), ("#4 小镇", "#A493FF")]):
         b.append(f'<circle cx="{x+4}" cy="191" r="3.5" fill="{color}"/>')
         b.append(T(label, x + 14, 196, 13, "mono", MUTED))
         b.append(f'<rect class="tw" {d(i*0.75)} x="{x}" y="206" width="{width(label, 13, "mono")+14:.0f}" height="2" fill="{color}"/>')
@@ -239,68 +235,10 @@ def m_planet(c):
     return "".join(b)
 
 
-def m_tx(c):
-    base, b = PY + 236, []
-    cols = ["#7EE787", "#d6c65b", "#FFA657", "#ff7b72"]
-    data = [[40, 30, 20], [52, 24, 34], [36, 40, 18], [60, 28, 40], [44, 22, 26], [70, 36, 48], [38, 30, 22], [56, 34, 30]]
-    for i, segs in enumerate(data):
-        x, y = PX + 70 + i * 62, base
-        parts = []
-        for j, h in enumerate(segs):
-            y -= h
-            parts.append(f'<rect x="{x}" y="{y}" width="38" height="{h-2}" rx="3" fill="{cols[min(3, (h//18))]}" opacity=".9"/>')
-        b.append(f'<g class="grow" {d(i*0.12)}>' + "".join(parts) + "</g>")
-        b.append(T(f"{i+3}月", x+19, base+22, 12, "sans", DIM, "middle"))
-    b.append(f'<path d="M{PX+56} {PY+118}H{PX+PW-40}" stroke="{c}" stroke-dasharray="6 6" stroke-width="1.5"/>')
-    b.append(T("budget", PX+PW-40, PY+110, 12, "mono", c, "end"))
-    b.append(f'<path d="M{PX+56} {base}H{PX+PW-40}" stroke="{LINE}"/>')
-    hx, hy = PX + 70 + 5*62 + 19, base - 154
-    b.append(f'<g class="bob"><rect x="{hx-14}" y="{hy-6}" width="28" height="8" rx="4" fill="#fff"/>'
-             f'<path d="M{hx+6} {hy+6}l0 22 6-6 8 12 5-3-8-11 9-1z" fill="#fff" stroke="{BG}" stroke-width="1.5"/></g>')
-    b.append(T("拖一拖，改一笔 · Ctrl+Z 撤销", PX+56, PY+40, 13, "sans", MUTED))
-    return "".join(b)
 
 
-def m_diet(c):
-    b = [f'<rect x="{PX+36}" y="{PY+40}" width="250" height="208" rx="10" fill="#161b22" stroke="{LINE}"/>',
-         f'<circle cx="{PX+161}" cy="{PY+144}" r="80" fill="#e9e4da"/><circle cx="{PX+161}" cy="{PY+144}" r="62" fill="#f6f2ea"/>',
-         f'<path d="M{PX+110} {PY+150}q20-40 60-28 10 22-14 40-46-12z" fill="#e3a86b"/>',
-         f'<ellipse cx="{PX+196}" cy="{PY+130}" rx="34" ry="24" fill="#fff" stroke="#e0d9cc"/>',
-         f'<circle cx="{PX+150}" cy="{PY+184}" r="10" fill="#6fbf5f"/><circle cx="{PX+170}" cy="{PY+190}" r="8" fill="#5aa84f"/>']
-    for i, (x, y, w, h, label) in enumerate([(96, 110, 92, 72, "鸡胸肉 165 kcal"), (156, 98, 84, 58, "米饭 230 kcal")]):
-        b.append(f'<g class="fade" {d(i*0.6)}><rect x="{PX+x}" y="{PY+y}" width="{w}" height="{h}" fill="none" stroke="{c}" stroke-width="2"/>'
-                 f'<rect x="{PX+x}" y="{PY+y-24}" width="{width(label,12)+14:.0f}" height="22" fill="{c}"/>'
-                 + T(label, PX+x+7, PY+y-8, 12, "sansm", BG) + "</g>")
-    rx, ry, r = PX + 430, PY + 118, 70
-    circ = 2 * 3.14159 * r
-    b.append(f'<circle cx="{rx}" cy="{ry}" r="{r}" fill="none" stroke="#21262d" stroke-width="14"/>')
-    b.append(f'<circle cx="{rx}" cy="{ry}" r="{r}" fill="none" stroke="{c}" stroke-width="14" stroke-linecap="round" '
-             f'stroke-dasharray="{circ*0.66:.0f} {circ:.0f}" transform="rotate(-90 {rx} {ry})"/>')
-    b.append(T("1,840", rx, ry+6, 30, "monob", INK, "middle"))
-    b.append(T("/ 2,800 kcal", rx, ry+30, 13, "mono", MUTED, "middle"))
-    b.append(T("蛋白质  128 / 160 g", PX+346, PY+232, 14, "sans", MUTED))
-    b.append(f'<rect x="{PX+346}" y="{PY+244}" width="180" height="8" rx="4" fill="#21262d"/>'
-             f'<rect class="wide" x="{PX+346}" y="{PY+244}" width="144" height="8" rx="4" fill="{c}"/>')
-    return "".join(b)
 
 
-def m_arena(c):
-    b = [f'<rect x="{PX+40}" y="{PY+26}" width="{PW-80}" height="36" rx="8" fill="#161b22" stroke="{LINE}"/>',
-         T("› a shrimp astronaut, watercolor", PX+56, PY+50, 15, "mono", MUTED),
-         f'<rect class="cur" x="{PX+56+width("› a shrimp astronaut, watercolor",15,"mono")+4:.0f}" y="{PY+36}" width="8" height="17" fill="{c}"/>',
-         '<defs><linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b5876"/><stop offset="1" stop-color="#4e4376"/></linearGradient>'
-         '<linearGradient id="gb" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#ee9ca7"/><stop offset="1" stop-color="#ffdde1"/></linearGradient></defs>']
-    for k, (x, grad, pct) in enumerate([(40, "ga", 62), (342, "gb", 38)]):
-        X = PX + x
-        b.append(f'<rect x="{X}" y="{PY+78}" width="220" height="150" rx="8" fill="url(#{grad})"/>')
-        b.append(f'<circle cx="{X+110}" cy="{PY+146}" r="36" fill="#fff" opacity=".85"/><circle cx="{X+110}" cy="{PY+146}" r="24" fill="#9fd3ff" opacity=".8"/>'
-                 f'<path d="M{X+80} {PY+186}q30-24 60 0" fill="none" stroke="#ff8a65" stroke-width="10" stroke-linecap="round"/>')
-        b.append(T("模型 A ?" if k == 0 else "模型 B ?", X+12, PY+100, 13, "monob", "#fff"))
-        b.append(f'<rect x="{X}" y="{PY+244}" width="220" height="10" rx="5" fill="#21262d"/>'
-                 f'<rect class="wide" {d(k*0.3)} x="{X}" y="{PY+244}" width="{220*pct/100:.0f}" height="10" rx="5" fill="{c if k == 0 else DIM}"/>')
-        b.append(T(f"{pct}%", X+220, PY+276, 14, "monob", c if k == 0 else MUTED, "end"))
-    b.append(T("VS", PX+PW/2, PY+164, 30, "monob", c, "middle"))
-    return "".join(b)
 
 
 def m_triz(c):
@@ -317,29 +255,6 @@ def m_triz(c):
     return "".join(b)
 
 
-def m_maimai(c):
-    cx, cy, R = PX + 150, PY + 144, 104
-    b = [f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="#161b22" stroke="{c}" stroke-width="3"/>',
-         f'<circle cx="{cx}" cy="{cy}" r="{R-16}" fill="none" stroke="{LINE}"/>']
-    import math
-    for i in range(8):
-        a = math.radians(22.5 + i * 45)
-        x, y = cx + R * math.sin(a), cy - R * math.cos(a)
-        b.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="9" fill="{c}" opacity=".85"/>')
-        b.append(f'<g class="out" style="transform-origin:{cx}px {cy}px;animation-delay:{-i*0.3:.1f}s">'
-                 f'<circle cx="{x:.1f}" cy="{y:.1f}" r="11" fill="none" stroke="#fff" stroke-width="3"/></g>')
-    b.append(T("maimai", cx, cy+7, 20, "monob", c, "middle"))
-    heads = ["版本", "等级", "谱师", "BPM", "流派"]
-    colors = [["#3fb950", "#d29922", DIM, "#d29922", DIM], ["#3fb950", "#3fb950", "#d29922", DIM, "#3fb950"],
-              ["#3fb950"] * 5]
-    for j, h in enumerate(heads):
-        b.append(T(h, PX + 328 + j * 52 + 22, PY + 58, 12, "sans", MUTED, "middle"))
-    for i, row in enumerate(colors):
-        for j, col in enumerate(row):
-            x, y = PX + 328 + j * 52, PY + 72 + i * 52
-            b.append(f'<rect class="fade" {d(i*0.9+j*0.12)} x="{x}" y="{y}" width="44" height="44" rx="6" fill="{col}"/>')
-    b.append(T("猜歌 · 算分 · 上分", PX + 328 + 128, PY + 260, 14, "sans", INK, "middle"))
-    return "".join(b)
 
 
 PROJECTS = [
@@ -348,18 +263,10 @@ PROJECTS = [
      "Drop in a pitch deck, get a structured deal record out.", ["Chrome 扩展", "Claude", "飞书"], ["PUBLIC"], m_bp),
     ("lyrics", "#39D3BB", "02", "Lyrics Parser", "学日语", "每一句歌词，都是一堂日语课。",
      "Every lyric is a Japanese lesson: furigana, romaji, grammar.", ["Next.js", "Claude", "小程序"], ["LIVE", "PUBLIC"], m_lyrics),
-    ("planet", "#A493FF", "03", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
-     "A personal manual you can walk into: a floating 3D town.", ["Three.js", "R2", "摄影"], ["PRIVATE", "WIP"], m_planet),
-    ("tx", "#7EE787", "04", "ShrimpTransactions", "生活 · 记账", "把每一笔钱，堆成看得见的柱子。",
-     "Every expense stacked into bars you can drag around.", ["D3.js", "Supabase", "Next.js"], ["LIVE", "PUBLIC"], m_tx),
-    ("diet", "#FF7B72", "05", "ShrimpDiet", "生活 · 增肌", "拍一张饭，算出离增肌还差多少。",
-     "Snap your meal; a VLM counts what's left to bulk.", ["VLM", "每日提醒", "卡路里"], ["PRIVATE"], m_diet),
-    ("arena", "#D2A8FF", "06", "Image Gen Arena", "AI 实验", "同一句提示词，让模型们盲选对决。",
-     "One prompt, blind side-by-side battles between image models.", ["Replicate", "盲测", "投票"], ["PUBLIC"], m_arena),
-    ("triz", "#F2CF1D", "07", "ShrimpTRIZ", "AI 思考工具", "卡住的问题，交给 40 条发明原理。",
+    ("triz", "#F2CF1D", "03", "ShrimpTRIZ", "AI 思考工具", "卡住的问题，交给 40 条发明原理。",
      "Stuck on a problem? Let 40 inventive principles have a go.", ["AutoTRIZ", "Claude", "Next.js"], ["LIVE"], m_triz),
-    ("maimai", "#FF6BC1", "08", "maimai toolkit", "音游", "音游玩家的工具箱：猜歌、算分、上分。",
-     "A rhythm gamer's toolkit: guess songs, calc scores, climb.", ["Wordle-like", "马赛克猜歌", "算分器"], ["LIVE", "PUBLIC"], m_maimai),
+    ("planet", "#A493FF", "04", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
+     "A personal manual you can walk into: a floating 3D town.", ["Three.js", "R2", "摄影"], ["PRIVATE", "WIP"], m_planet),
 ]
 
 
