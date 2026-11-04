@@ -102,7 +102,7 @@
 <br>
 
 <!-- ACTIVITY:START -->
-- `2026-05-04` [BP-Parser-for-SVTR](https://github.com/ezshrimps/BP-Parser-for-SVTR)
+- `2026-11-04` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 - `2026-03-21` [AI-Image-Gen-Arena-with-Replicate](https://github.com/ezshrimps/AI-Image-Gen-Arena-with-Replicate)
 - `2026-03-19` [ShrimpLyricsParser](https://github.com/ezshrimps/ShrimpLyricsParser)
 - `2026-03-19` [ShrimpWxBackend](https://github.com/ezshrimps/ShrimpWxBackend)
@@ -117,6 +117,6 @@
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-04 21:35 UTC</sub>
+<sub>last sync: 2026-11-04 22:33 UTC</sub>
 <!-- UPDATED:END -->
 </p>
