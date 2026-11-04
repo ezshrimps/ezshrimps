@@ -24,11 +24,11 @@
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 10-30 | **Fractile** | Compute | Series C | $774M | 红点创投 + |
-| 11-02 | **芯联动力** | Compute | Series C | $278M | 中国移动 |
+| 11-03 | **Fal.ai** | Dev Platforms | Series D+ | $1.3B | Bessemer Venture Partners |
+| 11-04 | **Agility Robotics** | Robotics | IPO | $465M | — |
+| 11-04 | **凌川科技** | Compute | Series B | $139M | 亦庄国投屹唐盛和基金 + |
 | 11-03 | **墨芯科技** | Compute | Series C | $139M | — |
-| 11-02 | **简智新创机器人科技** | Data | Series A | $100M | — |
-| 11-02 | **Tutor Intelligence** | Robotics | Series B | $75M | Andreessen Horowitz |
+| 11-04 | **EloElo Group** | Social & Media | Series C | $80M | NBCUniversal + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -106,6 +106,6 @@
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-03 21:19 UTC</sub>
+<sub>last sync: 2026-11-04 21:35 UTC</sub>
 <!-- UPDATED:END -->
 </p>
