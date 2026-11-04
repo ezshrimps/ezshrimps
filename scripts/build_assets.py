@@ -257,8 +257,29 @@ def m_triz(c):
 
 
 
+def m_daily(c):
+    b = [f'<rect x="{PX+36}" y="{PY+34}" width="{PW-72}" height="58" rx="12" fill="#161b22" stroke="{c}" stroke-opacity=".6"/>']
+    txt = "午饭牛肉面 18，4 点到 6 点健身，周五前交水电费"
+    b.append(f'<g class="fade">' + T(txt, PX+56, PY+70, 17, "sans", INK) + "</g>")
+    b.append(f'<rect class="cur" x="{PX+56+width(txt,17,"sans")+4:.0f}" y="{PY+52}" width="9" height="24" fill="{c}"/>')
+    hub_y = PY + 138
+    b.append(f'<path d="M{PX+PW/2} {PY+92}V{hub_y-18}" stroke="{c}" stroke-width="2"/>')
+    b.append(f'<rect x="{PX+PW/2-62}" y="{hub_y-18}" width="124" height="36" rx="18" fill="{c}"/>')
+    b.append(T("Claude 中枢", PX+PW/2, hub_y+6, 15, "sansb", BG, "middle"))
+    dests = [("饮食", "牛肉面 32g 蛋白"), ("花费", "$18 · 餐饮"), ("时间线", "16:00–18:00 健身"), ("待办", "交水电费 周五")]
+    cw = (PW - 72 - 3 * 12) / 4
+    for i, (k, v) in enumerate(dests):
+        x = PX + 36 + i * (cw + 12)
+        b.append(f'<path d="M{PX+PW/2} {hub_y+18}C{PX+PW/2} {hub_y+50} {x+cw/2:.0f} {hub_y+40} {x+cw/2:.0f} {hub_y+74}" fill="none" stroke="{LINE}" stroke-width="1.5"/>')
+        b.append(f'<g class="fade" {d(0.6+i*0.45)}><rect x="{x:.0f}" y="{hub_y+74}" width="{cw:.0f}" height="66" rx="10" fill="#161b22" stroke="{LINE}"/>'
+                 + T(k, x+14, hub_y+100, 14, "sansb", c) + T(v, x+14, hub_y+124, 12.5, "sans", MUTED) + "</g>")
+    return "".join(b)
+
+
 PROJECTS = [
     # key, accent, index, name, kicker, zh, en, tags, status, mockup
+    ("daily", "#58A6FF", "00", "izzy · daily", "个人每日面板", "一句话进来，全部归位。",
+     "One sentence in: meals, spending, to-dos and schedule all filed.", ["Claude Artifact", "MCP", "单文件 HTML"], ["PUBLIC"], m_daily),
     ("bp", "#FFA657", "01", "BP-Parser", "AI 创投工具", "一份 BP 丢进来，一条投资记录走出去。",
      "Drop in a pitch deck, get a structured deal record out.", ["Chrome 扩展", "Claude", "飞书"], ["PUBLIC"], m_bp),
     ("lyrics", "#39D3BB", "02", "Lyrics Parser", "学日语", "每一句歌词，都是一堂日语课。",

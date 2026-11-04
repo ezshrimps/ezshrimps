@@ -5,6 +5,17 @@
 
 <a href="https://github.com/ezshrimps?tab=repositories"><img src="https://img.shields.io/github/stars/ezshrimps?style=for-the-badge&logo=github&label=stars&color=FFA657" alt="total stars"></a> <a href="https://github.com/ezshrimps?tab=followers"><img src="https://img.shields.io/github/followers/ezshrimps?style=for-the-badge&logo=github&label=followers&color=39D3BB" alt="followers"></a> <a href="https://ezshrimps.com"><img src="https://img.shields.io/badge/ezshrimps.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="ezshrimps.com"></a> <a href="https://svtr.ai"><img src="https://img.shields.io/badge/work-svtr.ai-0d1117?style=for-the-badge&logo=databricks&logoColor=FFA657" alt="svtr.ai"></a>
 
+<img src="assets/divider-daily.svg" width="100%" alt="">
+
+## 🗂️ izzy · daily
+
+<a href="https://github.com/ezshrimps/izzy-daily"><img src="assets/card-daily.svg" width="100%" alt="izzy · daily：一句话进来，全部归位。"></a>
+
+<b>一句话进来，全部归位。</b>我的个人每日面板只有一个输入框：「午饭牛肉面 18，4 点到 6 点健身，周五前交水电费」，Claude 会拆成饮食、花费、时间线和待办，各放各的位置，写错一键撤销。背后接着 Gmail 里的银行提醒、Google 日历和每天早上的 AI 早报，整个面板是一个跑在 Claude Artifact 上的 HTML 文件。<br>
+<b>One sentence in, everything filed.</b> My daily dashboard has a single input box. Type "beef noodles $18, gym 4 to 6, pay the bill by Friday" and Claude splits it into a meal, an expense, a timeline slot and a to-do, each filed in the right place with one-tap undo. Bank alerts from Gmail, Google Calendar and a morning AI brief feed in automatically, all from one HTML file running as a Claude Artifact.
+
+<a href="https://github.com/ezshrimps/izzy-daily"><img src="https://img.shields.io/github/stars/ezshrimps/izzy-daily?style=for-the-badge&logo=github&label=izzy-daily&color=58A6FF" alt="izzy-daily on GitHub"></a>
+
 <img src="assets/divider-bp.svg" width="100%" alt="">
 
 ## 🤖 BP-Parser-for-SVTR
