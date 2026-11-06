@@ -124,7 +124,7 @@ def header():
     b.append(f'<rect class="cur" x="{cx:.0f}" y="72" width="12" height="32" fill="#FFA657"/>')
     b.append(T("Curiosity-driven. Shipping small AI tools people actually use.", 640, 134, 16, "sans", MUTED))
     x = 640
-    for i, (label, color) in enumerate([("#1 FUNDING", "#FFA657"), ("#2 DAILY", "#58A6FF"),
+    for i, (label, color) in enumerate([("#1 FUNDING", "#FFA657"), ("#2 DASHBOARD", "#58A6FF"),
                                          ("#3 GOLF", "#7EE787"), ("#4 学日语", "#39D3BB")]):
         b.append(f'<circle cx="{x+4}" cy="191" r="3.5" fill="{color}"/>')
         b.append(T(label, x + 14, 196, 13, "mono", MUTED))
@@ -284,22 +284,28 @@ def m_triz(c):
 
 
 
-def m_daily(c):
-    b = [f'<rect x="{PX+36}" y="{PY+34}" width="{PW-72}" height="58" rx="12" fill="#161b22" stroke="{c}" stroke-opacity=".6"/>']
-    txt = "午饭牛肉面 18，4 点到 6 点健身，周五前交水电费"
-    b.append(f'<g class="fade">' + T(txt, PX+56, PY+70, 17, "sans", INK) + "</g>")
-    b.append(f'<rect class="cur" x="{PX+56+width(txt,17,"sans")+4:.0f}" y="{PY+52}" width="9" height="24" fill="{c}"/>')
-    hub_y = PY + 138
-    b.append(f'<path d="M{PX+PW/2} {PY+92}V{hub_y-18}" stroke="{c}" stroke-width="2"/>')
-    b.append(f'<rect x="{PX+PW/2-62}" y="{hub_y-18}" width="124" height="36" rx="18" fill="{c}"/>')
-    b.append(T("Claude 中枢", PX+PW/2, hub_y+6, 15, "sansb", BG, "middle"))
-    dests = [("饮食", "牛肉面 32g 蛋白"), ("花费", "$18 · 餐饮"), ("时间线", "16:00–18:00 健身"), ("待办", "交水电费 周五")]
-    cw = (PW - 72 - 3 * 12) / 4
-    for i, (k, v) in enumerate(dests):
-        x = PX + 36 + i * (cw + 12)
-        b.append(f'<path d="M{PX+PW/2} {hub_y+18}C{PX+PW/2} {hub_y+50} {x+cw/2:.0f} {hub_y+40} {x+cw/2:.0f} {hub_y+74}" fill="none" stroke="{LINE}" stroke-width="1.5"/>')
-        b.append(f'<g class="fade" {d(0.6+i*0.45)}><rect x="{x:.0f}" y="{hub_y+74}" width="{cw:.0f}" height="66" rx="10" fill="#161b22" stroke="{LINE}"/>'
-                 + T(k, x+14, hub_y+100, 14, "sansb", c) + T(v, x+14, hub_y+124, 12.5, "sans", MUTED) + "</g>")
+def m_dashboard(c):
+    b = [T("选一个预设", PX+36, PY+40, 13, "mono", DIM)]
+    x = PX + 36
+    for i, name in enumerate(["学生", "上班族", "求职", "自由职业", "健康", "家庭"]):
+        w = width(name, 14, "sansb") + 26
+        on = i == 0
+        b.append(f'<rect x="{x:.0f}" y="{PY+54}" width="{w:.0f}" height="30" rx="15" fill="{c if on else "none"}" stroke="{c if on else LINE}"/>')
+        b.append(T(name, x+13, PY+74, 14, "sansb", BG if on else MUTED))
+        x += w + 8
+    b.append(T("勾选首页模块", PX+36, PY+110, 13, "mono", DIM))
+    tiles = [("一句话记录", "午饭 35 · 喝了 2 杯水", True), ("待办", "交实验报告 周五", True), ("截止日", "期中考试 · 22 天", True),
+             ("背单词", "18 / 30 个", True), ("睡眠", "未开启", False), ("喝水 · 自定义", "2 / 8 杯", True)]
+    cw, ch = (PW - 72 - 2 * 12) / 3, 54
+    for i, (k, v, on) in enumerate(tiles):
+        tx, ty = PX + 36 + (i % 3) * (cw + 12), PY + 122 + (i // 3) * (ch + 10)
+        g = [f'<rect x="{tx:.0f}" y="{ty}" width="{cw:.0f}" height="{ch}" rx="10" fill="#161b22" stroke="{c if on else LINE}" stroke-opacity="{.6 if on else 1}"/>',
+             f'<rect x="{tx+14:.0f}" y="{ty+12}" width="14" height="14" rx="4" fill="{c if on else "none"}" stroke="{c if on else DIM}"/>']
+        if on:
+            g.append(f'<path d="M{tx+17:.0f} {ty+19}l3 3 5-6" fill="none" stroke="{BG}" stroke-width="2"/>')
+        g.append(T(k, tx+38, ty+25, 14, "sansb", INK if on else DIM) + T(v, tx+14, ty+44, 12.5, "sans", MUTED if on else DIM))
+        b.append(f'<g class="fade" {d(0.3+i*0.35)}>' + "".join(g) + "</g>")
+    b.append(T("聊几句 → 选预设 → 勾模块 → 发布成 Artifact", PX+PW/2, PY+PH-18, 13, "mono", DIM, "middle"))
     return "".join(b)
 
 
@@ -333,8 +339,8 @@ PROJECTS = [
     # key, accent, index, name, kicker, zh, en, tags, status, mockup
     ("funding", "#FFA657", "00", "funding.log", "SVTR 创投数据", "每天早上，最大的 AI 融资自动送到这里。",
      "The week's biggest AI rounds, refreshed here every morning.", ["SVTR MCP", "GitHub Action", "每日刷新"], ["LIVE"], m_funding),
-    ("daily", "#58A6FF", "01", "izzy · daily", "个人每日面板", "一句话进来，全部归位。",
-     "One sentence in: meals, spending, to-dos and schedule all filed.", ["Claude Artifact", "MCP", "单文件 HTML"], ["PUBLIC"], m_daily),
+    ("dashboard", "#58A6FF", "01", "personal-dashboard-skill", "Claude Skill", "聊几句，长出一个只属于你的每日面板。",
+     "A short chat in, your own daily dashboard out.", ["Claude Artifact", "6 个预设", "自定义追踪"], ["PUBLIC"], m_dashboard),
     ("golf", "#7EE787", "02", "golf-course-vlog-skill", "Claude Skill", "一场球的原片丢进来，一条整场 vlog 走出去。",
      "Raw round footage in, a full-course vlog with broadcast UI out.", ["Claude Code", "YOLO Pose", "ffmpeg"], ["PUBLIC"], m_golf),
     ("bpskill", "#F78166", "03", "bp-parser-skill", "Claude Skill", "一份 BP 丢进来，一份有出处的研究报告走出去。",

@@ -26,16 +26,16 @@
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
 
-<img src="assets/divider-daily.svg" width="100%" alt="">
+<img src="assets/divider-dashboard.svg" width="100%" alt="">
 
-## 🗂️ izzy · daily
+## 🗂️ personal-dashboard-skill
 
-<a href="https://github.com/ezshrimps/izzy-daily"><img src="assets/card-daily.svg" width="100%" alt="izzy · daily：一句话进来，全部归位。"></a>
+<a href="https://github.com/ezshrimps/personal-dashboard-skill"><img src="assets/card-dashboard.svg" width="100%" alt="personal-dashboard-skill：聊几句，长出一个只属于你的每日面板。"></a>
 
-<b>一句话进来，全部归位。</b>我的个人每日面板只有一个输入框：「午饭牛肉面 18，4 点到 6 点健身，周五前交水电费」，Claude 会拆成饮食、花费、时间线和待办，各放各的位置，写错一键撤销。背后接着 Gmail 里的银行提醒、Google 日历和每天早上的 AI 早报，整个面板是一个跑在 Claude Artifact 上的 HTML 文件。<br>
-<b>One sentence in, everything filed.</b> My daily dashboard has a single input box. Type "beef noodles $18, gym 4 to 6, pay the bill by Friday" and Claude splits it into a meal, an expense, a timeline slot and a to-do, each filed in the right place with one-tap undo. Bank alerts from Gmail, Google Calendar and a morning AI brief feed in automatically, all from one HTML file running as a Claude Artifact.
+<b>聊几句，长出一个只属于你的每日面板。</b>我自己的每日面板用了一阵子，朋友也想要一个，但每个人要管的东西都不一样。于是我把它拆成一块块可开关的模块，写成了一个 Claude Code skill：先问你是学生、上班族、求职中、自由职业，还是给长辈用，再推荐一个预设，让你勾选首页显示哪些模块。预设里没有的需求，比如喝水、练琴、吃药、心情，用几个问题变成自定义追踪器，不用写代码。一句话录入、银行提醒或粘贴账单记账、每日早报都在里面，界面支持中英文，货币和日期按你所在的地区来。<br>
+<b>A short chat in, your own daily dashboard out.</b> Friends wanted a dashboard like mine, but everyone tracks different things. So I split mine into blocks you can switch on and off and turned it into a Claude Code skill. It asks whether you're a student, working, job hunting, freelancing or setting this up for a parent, recommends a preset, and lets you pick what the home page shows. Anything the presets miss, like water, piano practice, medication or mood, becomes a custom tracker through a few questions, with no code. One-sentence entry, bank alerts or a pasted statement for spending, and a morning brief are built in. The UI is in Chinese or English, with currency and dates for your region.
 
-<a href="https://github.com/ezshrimps/izzy-daily"><img src="https://img.shields.io/github/stars/ezshrimps/izzy-daily?style=for-the-badge&logo=github&label=izzy-daily&color=58A6FF" alt="izzy-daily on GitHub"></a>
+<a href="https://github.com/ezshrimps/personal-dashboard-skill"><img src="https://img.shields.io/github/stars/ezshrimps/personal-dashboard-skill?style=for-the-badge&logo=github&label=personal-dashboard-skill&color=58A6FF" alt="personal-dashboard-skill on GitHub"></a>
 
 <img src="assets/divider-golf.svg" width="100%" alt="">
 
