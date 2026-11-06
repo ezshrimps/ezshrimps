@@ -35,11 +35,11 @@
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-04 | **Nooks** | Retail & Marketing | 债务/可转债 | $500M | General Catalyst |
-| 11-04 | **Agility Robotics** | Robotics | IPO | $465M | — |
+| 11-05 | **Zipline** | Mobility & Logistics | — | $1.5B | Paradigm + |
+| 11-05 | **Harbinger Motors** | Mobility & Logistics | Series D+ | $240M | Tiger Global + |
 | 11-05 | **三呆科技** | Vertical Models | Series A | $200M | 基石资本 + |
-| 11-04 | **Sentra** | Security | Series C | $150M | Capital One Ventures |
-| 11-04 | **凌川科技** | Compute | Series B | $139M | 亦庄国投屹唐盛和基金 + |
+| 11-05 | **T-Therapeutics** | Life Sciences | Series B | $133M | Advent Life Sciences + |
+| 11-05 | **Ocient** | Data | Series C | $100M | BOKA Capital + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -113,11 +113,11 @@
 <br>
 
 <!-- ACTIVITY:START -->
+- `2026-11-06` [golf-course-vlog](https://github.com/ezshrimps/golf-course-vlog)
 - `2026-11-05` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 - `2026-03-21` [AI-Image-Gen-Arena-with-Replicate](https://github.com/ezshrimps/AI-Image-Gen-Arena-with-Replicate)
 - `2026-03-19` [ShrimpLyricsParser](https://github.com/ezshrimps/ShrimpLyricsParser)
 - `2026-03-19` [ShrimpWxBackend](https://github.com/ezshrimps/ShrimpWxBackend)
-- `2026-03-19` [Japanese-Songs-Lyrics-Parser](https://github.com/ezshrimps/Japanese-Songs-Lyrics-Parser)
 <!-- ACTIVITY:END -->
 
 </details>
@@ -128,6 +128,6 @@
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-05 21:37 UTC</sub>
+<sub>last sync: 2026-11-06 20:31 UTC</sub>
 <!-- UPDATED:END -->
 </p>
