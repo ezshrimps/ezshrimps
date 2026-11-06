@@ -117,11 +117,11 @@
 <br>
 
 <!-- ACTIVITY:START -->
+- `2026-11-06` [personal-dashboard-skill](https://github.com/ezshrimps/personal-dashboard-skill)
 - `2026-11-06` [bp-parser-skill](https://github.com/ezshrimps/bp-parser-skill)
 - `2026-11-06` [golf-course-vlog-skill](https://github.com/ezshrimps/golf-course-vlog-skill)
 - `2026-11-05` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 - `2026-03-21` [AI-Image-Gen-Arena-with-Replicate](https://github.com/ezshrimps/AI-Image-Gen-Arena-with-Replicate)
-- `2026-03-19` [ShrimpLyricsParser](https://github.com/ezshrimps/ShrimpLyricsParser)
 <!-- ACTIVITY:END -->
 
 </details>
@@ -132,6 +132,6 @@
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-06 21:52 UTC</sub>
+<sub>last sync: 2026-11-06 23:05 UTC</sub>
 <!-- UPDATED:END -->
 </p>
