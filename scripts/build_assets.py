@@ -183,6 +183,29 @@ def m_funding(c):
     b.append(T("每天 09:00 PT 自动刷新 · via svtr.ai MCP", PX+46, PY+265, 13, "sans", MUTED))
     return "".join(b)
 
+def m_bpskill(c):
+    b = [f'<rect x="{PX+32}" y="{PY+44}" width="118" height="164" rx="8" fill="#161b22" stroke="{LINE}"/>',
+         f'<path d="M{PX+124} {PY+44}v26h26" fill="none" stroke="{LINE}"/>',
+         T("deck.pdf", PX+46, PY+72, 13, "monob", c)]
+    b += [f'<rect x="{PX+46}" y="{PY+90+i*18}" width="{[86,70,90,58,80,66][i]}" height="5" rx="2.5" fill="{DIM}"/>' for i in range(6)]
+    b.append(f'<path d="M{PX+160} {PY+126}h22m-8-7 8 7-8 7" fill="none" stroke="{c}" stroke-width="2"/>')
+    claims = [("C1", "ARR $1.2M", "已核实", "#3fb950"), ("C2", "500 强试点", "查不到", "#8b949e"),
+              ("C3", "CEO 前大厂", "已核实", "#3fb950"), ("C4", "月增 20%", "对不上", "#ff7b72")]
+    for i, (k, text, status, col) in enumerate(claims):
+        y = PY + 44 + i * 42
+        b.append(f'<g class="fade" {d(i*0.45)}><rect x="{PX+192}" y="{y}" width="208" height="34" rx="7" fill="#161b22" stroke="{LINE}"/>'
+                 + T(k, PX+204, y+22, 12, "monob", DIM) + T(text, PX+232, y+22, 13, "sans", INK)
+                 + f'<circle cx="{PX+342}" cy="{y+17}" r="4" fill="{col}"/>' + T(status, PX+390, y+22, 12, "sansm", col, "end") + "</g>")
+    for i, (k, v) in enumerate([("团队", 7), ("市场", 6), ("产品", 7), ("牵引", 4), ("壁垒", 5)]):
+        y = PY + 52 + i * 30
+        b.append(T(k, PX+424, y+10, 12, "sans", MUTED))
+        b.append(f'<rect x="{PX+458}" y="{y+1}" width="100" height="10" rx="5" fill="#21262d"/>'
+                 f'<rect class="wide" {d(1.8+i*0.2)} x="{PX+458}" y="{y+1}" width="{v*10}" height="10" rx="5" fill="{c}"/>')
+        b.append(T(str(v), PX+574, y+10, 12, "monob", INK, "end"))
+    b.append(f'<g class="fade" {d(3)}>' + chip(PX+424, PY+212, "继续观察 · 6.1", c, True)[0] + "</g>")
+    b.append(T("8 条主张 · 23 个来源 · 6 个尽调问题", PX+32, PY+262, 13, "sans", MUTED))
+    return "".join(b)
+
 
 def m_lyrics(c):
     segs = [("夜空", "よぞら"), ("に", ""), ("浮", "う"), ("かぶ", ""), ("星", "ほし")]
@@ -312,13 +335,15 @@ PROJECTS = [
      "The week's biggest AI rounds, refreshed here every morning.", ["SVTR MCP", "GitHub Action", "每日刷新"], ["LIVE"], m_funding),
     ("daily", "#58A6FF", "01", "izzy · daily", "个人每日面板", "一句话进来，全部归位。",
      "One sentence in: meals, spending, to-dos and schedule all filed.", ["Claude Artifact", "MCP", "单文件 HTML"], ["PUBLIC"], m_daily),
-    ("golf", "#7EE787", "02", "golf-course-vlog", "Claude Skill", "一场球的原片丢进来，一条整场 vlog 走出去。",
+    ("golf", "#7EE787", "02", "golf-course-vlog-skill", "Claude Skill", "一场球的原片丢进来，一条整场 vlog 走出去。",
      "Raw round footage in, a full-course vlog with broadcast UI out.", ["Claude Code", "YOLO Pose", "ffmpeg"], ["PUBLIC"], m_golf),
-    ("lyrics", "#39D3BB", "03", "Lyrics Parser", "学日语", "每一句歌词，都是一堂日语课。",
+    ("bpskill", "#F78166", "03", "bp-parser-skill", "Claude Skill", "一份 BP 丢进来，一份有出处的研究报告走出去。",
+     "Pitch deck in, an evidence-backed research report out.", ["WebSearch", "主张核实", "五维打分"], ["PUBLIC"], m_bpskill),
+    ("lyrics", "#39D3BB", "04", "Lyrics Parser", "学日语", "每一句歌词，都是一堂日语课。",
      "Every lyric is a Japanese lesson: furigana, romaji, grammar.", ["Next.js", "Claude", "小程序"], ["LIVE", "PUBLIC"], m_lyrics),
-    ("triz", "#F2CF1D", "04", "ShrimpTRIZ", "AI 思考工具", "卡住的问题，交给 40 条发明原理。",
+    ("triz", "#F2CF1D", "05", "ShrimpTRIZ", "AI 思考工具", "卡住的问题，交给 40 条发明原理。",
      "Stuck on a problem? Let 40 inventive principles have a go.", ["AutoTRIZ", "Claude", "Next.js"], ["LIVE"], m_triz),
-    ("planet", "#A493FF", "05", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
+    ("planet", "#A493FF", "06", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
      "A personal manual you can walk into: a floating 3D town.", ["Three.js", "R2", "摄影"], ["PRIVATE", "WIP"], m_planet),
 ]
 

@@ -39,14 +39,25 @@
 
 <img src="assets/divider-golf.svg" width="100%" alt="">
 
-## ⛳ golf-course-vlog
+## ⛳ golf-course-vlog-skill
 
-<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog：一场球的原片丢进来，一条整场 vlog 走出去。"></a>
+<a href="https://github.com/ezshrimps/golf-course-vlog-skill"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog-skill：一场球的原片丢进来，一条整场 vlog 走出去。"></a>
 
 <b>一场球的原片丢进来，一条整场 vlog 走出去。</b>打完一场球拍了 70 多段素材，我把剪辑全流程写成了一个 Claude Code skill：YOLO 姿态加击球声找出每一杆，OpenStreetMap 画出每洞地图，再叠上转播风格的 UI，包括洞号 HUD、挥杆轨迹、球路追踪，以及球速、飞行距离和节奏比的数据卡。另外还能剪满意球精华，或者配一首歌，按底鼓把每一杆的击球卡在拍上。<br>
 <b>Raw round footage in, a full-course vlog out.</b> After a round with 70+ clips, I turned the whole edit into a Claude Code skill. YOLO pose plus impact-sound detection finds every shot, and OpenStreetMap draws each hole. On top goes a broadcast-style overlay: a hole HUD, swing tracer, ball tracking, and cards with ball speed, carry and tempo. It can also cut a best-shots reel, or sync every impact to the kick drum of a song.
 
-<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog?style=for-the-badge&logo=github&label=golf-course-vlog&color=7EE787" alt="golf-course-vlog on GitHub"></a>
+<a href="https://github.com/ezshrimps/golf-course-vlog-skill"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog-skill?style=for-the-badge&logo=github&label=golf-course-vlog-skill&color=7EE787" alt="golf-course-vlog-skill on GitHub"></a>
+
+<img src="assets/divider-bpskill.svg" width="100%" alt="">
+
+## 🔍 bp-parser-skill
+
+<a href="https://github.com/ezshrimps/bp-parser-skill"><img src="assets/card-bpskill.svg" width="100%" alt="bp-parser-skill：一份 BP 丢进来，一份有出处的研究报告走出去。"></a>
+
+<b>一份 BP 丢进来，一份有出处的研究报告走出去。</b>看 BP 最费时间的不是读，而是查。这个 Claude Code skill 先从 deck 里拎出 8 到 15 条决定成败的关键主张，再去官网、新闻、融资记录、创始人履历和公司注册信息里逐条核实，标成「已核实 / 对不上 / 暂无独立佐证」，查不到从不写成造假。最后按团队、市场、产品、牵引力、壁垒五个维度打分，每一分都标明证据强弱，附上竞品和锚定原文的尽调问题。<br>
+<b>Pitch deck in, an evidence-backed research report out.</b> The slow part of reading a deck is checking it. This Claude Code skill pulls out the 8 to 15 claims the case rests on, checks each against the company site, press, funding records, founder history and registries, and labels it verified, conflicting or unconfirmed, never calling missing evidence false. It then scores team, market, product, traction and moat with an evidence level on every score, and adds competitors and DD questions anchored to the deck.
+
+<a href="https://github.com/ezshrimps/bp-parser-skill"><img src="https://img.shields.io/github/stars/ezshrimps/bp-parser-skill?style=for-the-badge&logo=github&label=bp-parser-skill&color=F78166" alt="bp-parser-skill on GitHub"></a>
 
 <img src="assets/divider-lyrics.svg" width="100%" alt="">
 
