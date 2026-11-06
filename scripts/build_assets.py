@@ -276,6 +276,32 @@ def m_daily(c):
     return "".join(b)
 
 
+def m_golf(c):
+    b = [f'<rect x="{PX+1}" y="{PY+150}" width="{PW-2}" height="{PH-151}" rx="0" fill="{c}" opacity=".07"/>',
+         f'<path d="M{PX} {PY+150}H{PX+PW}" stroke="{LINE}"/>']
+    b.append(chip(PX+28, PY+24, "HOLE 4 · PAR 4 · 288 YDS", c, True)[0])
+    for i in range(15):
+        b.append(f'<rect x="{PX+30+i*14+(8 if i >= 9 else 0)}" y="{PY+62}" width="10" height="4" rx="2" '
+                 f'fill="{c if i == 3 else INK}" opacity="{1 if i == 3 else .7 if i < 3 else .2}"/>')
+    bx, by = PX + 170, PY + 238
+    b.append(f'<path d="M{bx-4} {by-6}A50 70 0 1 1 {bx+44} {by-98}" fill="none" stroke="{c}" stroke-width="4" opacity=".9"/>')
+    b.append(f'<g class="fade" {d(0.8)}><path d="M{bx} {by}C{bx+40} {by-220} {bx+170} {by-200} {bx+200} {by-90}" fill="none" stroke="#ff7b72" stroke-width="3.5"/>'
+             f'<circle cx="{bx+200}" cy="{by-90}" r="4" fill="#ff7b72"/>'
+             + T("BALL TRACKED", bx+110, by-58, 12, "monob", "#ff7b72") + "</g>")
+    b.append(f'<circle cx="{bx}" cy="{by}" r="5" fill="{INK}"/>')
+    cx0, cy0 = PX + 400, PY + 96
+    b.append(f'<rect x="{cx0}" y="{cy0}" width="174" height="170" rx="10" fill="#161b22" stroke="{LINE}"/>')
+    b.append(T("TEE SHOT", cx0+14, cy0+24, 12, "monob", c) + T("EST.", cx0+160, cy0+24, 11, "mono", DIM, "end"))
+    b.append(T("DRIVER", cx0+14, cy0+54, 22, "monob"))
+    for i, (k, v) in enumerate([("BALL", "132 mph"), ("CARRY", "214 yds"), ("TEMPO", "3.1 : 1")]):
+        y = cy0 + 86 + i * 30
+        b.append(f'<path d="M{cx0+14} {y-14}H{cx0+160}" stroke="{LINE}"/>')
+        b.append(T(k, cx0+14, y+4, 12, "mono", MUTED))
+        b.append(f'<g class="fade" {d(1.4+i*0.4)}>' + T(v, cx0+160, y+4, 15, "monob", INK, "end") + "</g>")
+    b.append(T("70 段原片 → 20 分钟整场 vlog", PX+PW-28, PY+40, 13, "mono", DIM, "end"))
+    return "".join(b)
+
+
 PROJECTS = [
     # key, accent, index, name, kicker, zh, en, tags, status, mockup
     ("daily", "#58A6FF", "00", "izzy · daily", "个人每日面板", "一句话进来，全部归位。",
@@ -288,6 +314,8 @@ PROJECTS = [
      "Stuck on a problem? Let 40 inventive principles have a go.", ["AutoTRIZ", "Claude", "Next.js"], ["LIVE"], m_triz),
     ("planet", "#A493FF", "04", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
      "A personal manual you can walk into: a floating 3D town.", ["Three.js", "R2", "摄影"], ["PRIVATE", "WIP"], m_planet),
+    ("golf", "#7EE787", "05", "golf-course-vlog", "Claude Skill", "一场球的原片丢进来，一条整场 vlog 走出去。",
+     "Raw round footage in, a full-course vlog with broadcast UI out.", ["Claude Code", "YOLO Pose", "ffmpeg"], ["PUBLIC"], m_golf),
 ]
 
 

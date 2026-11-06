@@ -80,6 +80,17 @@
 
 <img src="https://img.shields.io/badge/🔒_private-施工中_·_coming_soon-A493FF?style=for-the-badge" alt="private, coming soon">
 
+<img src="assets/divider-golf.svg" width="100%" alt="">
+
+## ⛳ golf-course-vlog
+
+<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog：一场球的原片丢进来，一条整场 vlog 走出去。"></a>
+
+<b>一场球的原片丢进来，一条整场 vlog 走出去。</b>打完一场球拍了 70 多段素材，我把剪辑全流程写成了一个 Claude Code skill：YOLO 姿态加击球声找出每一杆，OpenStreetMap 画出每洞地图，再叠上转播风格的 UI，包括洞号 HUD、挥杆轨迹、球路追踪，以及球速、飞行距离和节奏比的数据卡。另外还能剪满意球精华，或者配一首歌，按底鼓把每一杆的击球卡在拍上。<br>
+<b>Raw round footage in, a full-course vlog out.</b> After a round with 70+ clips, I turned the whole edit into a Claude Code skill. YOLO pose plus impact-sound detection finds every shot, and OpenStreetMap draws each hole. On top goes a broadcast-style overlay: a hole HUD, swing tracer, ball tracking, and cards with ball speed, carry and tempo. It can also cut a best-shots reel, or sync every impact to the kick drum of a song.
+
+<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog?style=for-the-badge&logo=github&label=golf-course-vlog&color=7EE787" alt="golf-course-vlog on GitHub"></a>
+
 <img src="assets/divider-end.svg" width="100%" alt="">
 
 ## 📦 更多作品 · More
