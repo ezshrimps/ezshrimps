@@ -79,7 +79,6 @@ ANIM = (
     ".wide{transform-box:fill-box;transform-origin:left center;animation:wide 8s cubic-bezier(.6,0,.2,1) infinite}"
     "@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.bob{animation:bob 5s ease-in-out infinite}"
     "@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}.tw{animation:tw 3s ease-in-out infinite}"
-    "@keyframes scan{0%{transform:translateY(0)}50%{transform:translateY(176px)}100%{transform:translateY(0)}}.scan{animation:scan 3.2s ease-in-out infinite}"
     "@keyframes drift{from{transform:translateX(-40px)}to{transform:translateX(40px)}}.drift{animation:drift 9s ease-in-out infinite alternate}"
     "@keyframes lit{0%,100%{opacity:.08}12%,40%{opacity:1}}.lit{animation:lit 6s ease-in-out infinite}"
     "@keyframes pulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}"
@@ -125,8 +124,8 @@ def header():
     b.append(f'<rect class="cur" x="{cx:.0f}" y="72" width="12" height="32" fill="#FFA657"/>')
     b.append(T("Curiosity-driven. Shipping small AI tools people actually use.", 640, 134, 16, "sans", MUTED))
     x = 640
-    for i, (label, color) in enumerate([("#1 BP-PARSER", "#FFA657"), ("#2 学日语", "#39D3BB"),
-                                         ("#3 TRIZ", "#F2CF1D"), ("#4 小镇", "#A493FF")]):
+    for i, (label, color) in enumerate([("#1 FUNDING", "#FFA657"), ("#2 DAILY", "#58A6FF"),
+                                         ("#3 GOLF", "#7EE787"), ("#4 学日语", "#39D3BB")]):
         b.append(f'<circle cx="{x+4}" cy="191" r="3.5" fill="{color}"/>')
         b.append(T(label, x + 14, 196, 13, "mono", MUTED))
         b.append(f'<rect class="tw" {d(i*0.75)} x="{x}" y="206" width="{width(label, 13, "mono")+14:.0f}" height="2" fill="{color}"/>')
@@ -162,21 +161,26 @@ def footer():
 PX, PY, PW, PH = 650, 36, 602, 288
 
 
-def m_bp(c):
-    b = [f'<rect x="{PX+44}" y="{PY+56}" width="150" height="196" rx="8" fill="#161b22" stroke="{LINE}"/>',
-         f'<path d="M{PX+164} {PY+56}v30h30" fill="none" stroke="{LINE}"/>',
-         T("BP.pdf", PX+62, PY+86, 15, "monob", c)]
-    b += [f'<rect x="{PX+62}" y="{PY+106+i*20}" width="{[110,90,114,70,100,84,108][i]}" height="6" rx="3" fill="{DIM}"/>' for i in range(7)]
-    b.append(f'<g class="scan"><rect x="{PX+40}" y="{PY+56}" width="158" height="3" fill="{c}" opacity=".9"/>'
-             f'<rect x="{PX+40}" y="{PY+59}" width="158" height="18" fill="{c}" opacity=".08"/></g>')
-    b.append(f'<path d="M{PX+214} {PY+154}h40m-10-8 10 8-10 8" fill="none" stroke="{c}" stroke-width="2"/>')
-    rows = [("公司", "Shrimp Labs"), ("赛道", "AI Agents"), ("轮次", "Seed"), ("金额", "$3M"), ("创始人", "A. Chen · ex-Google")]
-    for i, (k, v) in enumerate(rows):
-        y = PY + 44 + i * 42
-        b.append(T(k, PX+276, y+22, 14, "sans", MUTED))
-        b.append(f'<rect x="{PX+340}" y="{y}" width="220" height="32" rx="6" fill="#161b22" stroke="{LINE}"/>')
-        b.append(f'<g class="fade" {d(i*0.5)}>' + T(v, PX+352, y+21, 15, "mono", INK) + "</g>")
-    b.append(f'<g class="fade" {d(2.8)}>' + chip(PX+340, PY+258, "→ 飞书 Bitable ✓", c)[0] + "</g>")
+
+def m_funding(c):
+    b = [f'<rect x="{PX}" y="{PY}" width="{PW}" height="34" rx="10" fill="#161b22"/>',
+         f'<path d="M{PX} {PY+34}H{PX+PW}" stroke="{LINE}"/>']
+    b += [f'<circle cx="{PX+20+i*16}" cy="{PY+17}" r="5" fill="{col}"/>' for i, col in enumerate(["#ff7b72", "#d29922", "#3fb950"])]
+    b.append(T("$ tail -f svtr/funding.log", PX+78, PY+22, 13, "mono", MUTED))
+    b.append(T("TOP 5 · 7 DAYS", PX+PW-20, PY+22, 12, "monob", c, "end"))
+    sectors = ["算力", "大模型", "机器人", "生命科学", "智能体"]
+    for i, (sector, amt) in enumerate(zip(sectors, [1.0, .62, .44, .33, .25])):
+        y = PY + 62 + i * 38
+        row = [T(f"{i+1:02d}", PX+24, y+16, 13, "monob", c),
+               f'<rect x="{PX+56}" y="{y+5}" width="{[132, 108, 150, 96, 120][i]}" height="12" rx="6" fill="{INK}" opacity=".85"/>',
+               f'<rect x="{PX+222}" y="{y}" width="{width(sector,12)+18:.0f}" height="22" rx="11" fill="none" stroke="{LINE}"/>',
+               T(sector, PX+231, y+15, 12, "sans", MUTED),
+               f'<rect x="{PX+322}" y="{y+5}" width="200" height="12" rx="6" fill="#21262d"/>',
+               f'<rect class="wide" {d(0.3+i*0.25)} x="{PX+322}" y="{y+5}" width="{200*amt:.0f}" height="12" rx="6" fill="{c}" opacity="{1-i*.13:.2f}"/>',
+               T("$", PX+PW-24, y+16, 13, "monob", c, "end")]
+        b.append(f'<g class="fade" {d(i*0.35)}>' + "".join(row) + "</g>")
+    b.append(f'<circle class="pulse" cx="{PX+30}" cy="{PY+260}" r="5" fill="{c}"/><circle cx="{PX+30}" cy="{PY+260}" r="4" fill="{c}"/>')
+    b.append(T("每天 09:00 PT 自动刷新 · via svtr.ai MCP", PX+46, PY+265, 13, "sans", MUTED))
     return "".join(b)
 
 
@@ -304,18 +308,18 @@ def m_golf(c):
 
 PROJECTS = [
     # key, accent, index, name, kicker, zh, en, tags, status, mockup
-    ("daily", "#58A6FF", "00", "izzy · daily", "个人每日面板", "一句话进来，全部归位。",
+    ("funding", "#FFA657", "00", "funding.log", "SVTR 创投数据", "每天早上，最大的 AI 融资自动送到这里。",
+     "The week's biggest AI rounds, refreshed here every morning.", ["SVTR MCP", "GitHub Action", "每日刷新"], ["LIVE"], m_funding),
+    ("daily", "#58A6FF", "01", "izzy · daily", "个人每日面板", "一句话进来，全部归位。",
      "One sentence in: meals, spending, to-dos and schedule all filed.", ["Claude Artifact", "MCP", "单文件 HTML"], ["PUBLIC"], m_daily),
-    ("bp", "#FFA657", "01", "BP-Parser", "AI 创投工具", "一份 BP 丢进来，一条投资记录走出去。",
-     "Drop in a pitch deck, get a structured deal record out.", ["Chrome 扩展", "Claude", "飞书"], ["PUBLIC"], m_bp),
-    ("lyrics", "#39D3BB", "02", "Lyrics Parser", "学日语", "每一句歌词，都是一堂日语课。",
-     "Every lyric is a Japanese lesson: furigana, romaji, grammar.", ["Next.js", "Claude", "小程序"], ["LIVE", "PUBLIC"], m_lyrics),
-    ("triz", "#F2CF1D", "03", "ShrimpTRIZ", "AI 思考工具", "卡住的问题，交给 40 条发明原理。",
-     "Stuck on a problem? Let 40 inventive principles have a go.", ["AutoTRIZ", "Claude", "Next.js"], ["LIVE"], m_triz),
-    ("planet", "#A493FF", "04", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
-     "A personal manual you can walk into: a floating 3D town.", ["Three.js", "R2", "摄影"], ["PRIVATE", "WIP"], m_planet),
-    ("golf", "#7EE787", "05", "golf-course-vlog", "Claude Skill", "一场球的原片丢进来，一条整场 vlog 走出去。",
+    ("golf", "#7EE787", "02", "golf-course-vlog", "Claude Skill", "一场球的原片丢进来，一条整场 vlog 走出去。",
      "Raw round footage in, a full-course vlog with broadcast UI out.", ["Claude Code", "YOLO Pose", "ffmpeg"], ["PUBLIC"], m_golf),
+    ("lyrics", "#39D3BB", "03", "Lyrics Parser", "学日语", "每一句歌词，都是一堂日语课。",
+     "Every lyric is a Japanese lesson: furigana, romaji, grammar.", ["Next.js", "Claude", "小程序"], ["LIVE", "PUBLIC"], m_lyrics),
+    ("triz", "#F2CF1D", "04", "ShrimpTRIZ", "AI 思考工具", "卡住的问题，交给 40 条发明原理。",
+     "Stuck on a problem? Let 40 inventive principles have a go.", ["AutoTRIZ", "Claude", "Next.js"], ["LIVE"], m_triz),
+    ("planet", "#A493FF", "05", "Little Planet", "个人说明书", "一座可以走进去的漂浮小镇。",
+     "A personal manual you can walk into: a floating 3D town.", ["Three.js", "R2", "摄影"], ["PRIVATE", "WIP"], m_planet),
 ]
 
 

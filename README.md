@@ -5,32 +5,14 @@
 
 <a href="https://github.com/ezshrimps?tab=repositories"><img src="https://img.shields.io/github/stars/ezshrimps?style=for-the-badge&logo=github&label=stars&color=FFA657" alt="total stars"></a> <a href="https://github.com/ezshrimps?tab=followers"><img src="https://img.shields.io/github/followers/ezshrimps?style=for-the-badge&logo=github&label=followers&color=39D3BB" alt="followers"></a> <a href="https://ezshrimps.com"><img src="https://img.shields.io/badge/ezshrimps.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="ezshrimps.com"></a> <a href="https://svtr.ai"><img src="https://img.shields.io/badge/work-svtr.ai-0d1117?style=for-the-badge&logo=databricks&logoColor=FFA657" alt="svtr.ai"></a>
 
-<img src="assets/divider-daily.svg" width="100%" alt="">
+<img src="assets/divider-funding.svg" width="100%" alt="">
 
-## 🗂️ izzy · daily
+## 📡 funding.log
 
-<a href="https://github.com/ezshrimps/izzy-daily"><img src="assets/card-daily.svg" width="100%" alt="izzy · daily：一句话进来，全部归位。"></a>
+<a href="https://svtr.ai/stream?lang=en"><img src="assets/card-funding.svg" width="100%" alt="funding.log：每天早上，最大的 AI 融资自动送到这里。"></a>
 
-<b>一句话进来，全部归位。</b>我的个人每日面板只有一个输入框：「午饭牛肉面 18，4 点到 6 点健身，周五前交水电费」，Claude 会拆成饮食、花费、时间线和待办，各放各的位置，写错一键撤销。背后接着 Gmail 里的银行提醒、Google 日历和每天早上的 AI 早报，整个面板是一个跑在 Claude Artifact 上的 HTML 文件。<br>
-<b>One sentence in, everything filed.</b> My daily dashboard has a single input box. Type "beef noodles $18, gym 4 to 6, pay the bill by Friday" and Claude splits it into a meal, an expense, a timeline slot and a to-do, each filed in the right place with one-tap undo. Bank alerts from Gmail, Google Calendar and a morning AI brief feed in automatically, all from one HTML file running as a Claude Artifact.
-
-<a href="https://github.com/ezshrimps/izzy-daily"><img src="https://img.shields.io/github/stars/ezshrimps/izzy-daily?style=for-the-badge&logo=github&label=izzy-daily&color=58A6FF" alt="izzy-daily on GitHub"></a>
-
-<img src="assets/divider-bp.svg" width="100%" alt="">
-
-## 🤖 BP-Parser-for-SVTR
-
-<a href="https://github.com/ezshrimps/BP-Parser-for-SVTR"><img src="assets/card-bp.svg" width="100%" alt="BP-Parser：一份 BP 丢进来，一条投资记录走出去。"></a>
-
-<b>一份 BP 丢进来，一条投资记录走出去。</b>PDF 或一段文字都行，Claude 读完后把公司、赛道、轮次、金额、创始人拆成字段，一键填进 SVTR 的飞书创投库。人只需要最后看一眼。<br>
-<b>Drop in a pitch deck, get a deal record out.</b> PDF or plain text: Claude reads it, splits out company, sector, round, amount and founders, and fills them into SVTR's Feishu venture database. A human just takes the last look.
-
-<a href="https://github.com/ezshrimps/BP-Parser-for-SVTR"><img src="https://img.shields.io/github/stars/ezshrimps/BP-Parser-for-SVTR?style=for-the-badge&logo=github&label=BP-Parser&color=FFA657" alt="BP-Parser on GitHub"></a>
-
-### 📡 特色：`tail -f svtr/funding.log`
-
-> 从 BP 解析出来的数据最后都汇进 SVTR AI 创投库，这个主页也直接接着它：GitHub Action 每天通过 [svtr.ai](https://svtr.ai) 的 MCP 接口，拉取过去 7 天金额最大的 5 笔 AI 融资，刷新到下面这张表。<br>
-> Parsed decks end up in the SVTR AI Venture Database, and this profile reads from it too: a daily GitHub Action pulls the five biggest AI rounds of the past 7 days through svtr.ai's MCP server and refreshes the table below.
+<b>每天早上，最大的 AI 融资自动送到这里。</b>这块直接接着我在 SVTR 做的 AI 创投库：GitHub Action 每天通过 [svtr.ai](https://svtr.ai) 的 MCP 接口，拉取过去 7 天金额最大的 5 笔 AI 融资，刷新到下面这张表。<br>
+<b>The week's biggest AI rounds, delivered every morning.</b> This block reads straight from the SVTR AI Venture Database I work on: a daily GitHub Action pulls the five biggest AI rounds of the past 7 days through svtr.ai's MCP server and refreshes the table below.
 
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
@@ -43,6 +25,28 @@
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
+
+<img src="assets/divider-daily.svg" width="100%" alt="">
+
+## 🗂️ izzy · daily
+
+<a href="https://github.com/ezshrimps/izzy-daily"><img src="assets/card-daily.svg" width="100%" alt="izzy · daily：一句话进来，全部归位。"></a>
+
+<b>一句话进来，全部归位。</b>我的个人每日面板只有一个输入框：「午饭牛肉面 18，4 点到 6 点健身，周五前交水电费」，Claude 会拆成饮食、花费、时间线和待办，各放各的位置，写错一键撤销。背后接着 Gmail 里的银行提醒、Google 日历和每天早上的 AI 早报，整个面板是一个跑在 Claude Artifact 上的 HTML 文件。<br>
+<b>One sentence in, everything filed.</b> My daily dashboard has a single input box. Type "beef noodles $18, gym 4 to 6, pay the bill by Friday" and Claude splits it into a meal, an expense, a timeline slot and a to-do, each filed in the right place with one-tap undo. Bank alerts from Gmail, Google Calendar and a morning AI brief feed in automatically, all from one HTML file running as a Claude Artifact.
+
+<a href="https://github.com/ezshrimps/izzy-daily"><img src="https://img.shields.io/github/stars/ezshrimps/izzy-daily?style=for-the-badge&logo=github&label=izzy-daily&color=58A6FF" alt="izzy-daily on GitHub"></a>
+
+<img src="assets/divider-golf.svg" width="100%" alt="">
+
+## ⛳ golf-course-vlog
+
+<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog：一场球的原片丢进来，一条整场 vlog 走出去。"></a>
+
+<b>一场球的原片丢进来，一条整场 vlog 走出去。</b>打完一场球拍了 70 多段素材，我把剪辑全流程写成了一个 Claude Code skill：YOLO 姿态加击球声找出每一杆，OpenStreetMap 画出每洞地图，再叠上转播风格的 UI，包括洞号 HUD、挥杆轨迹、球路追踪，以及球速、飞行距离和节奏比的数据卡。另外还能剪满意球精华，或者配一首歌，按底鼓把每一杆的击球卡在拍上。<br>
+<b>Raw round footage in, a full-course vlog out.</b> After a round with 70+ clips, I turned the whole edit into a Claude Code skill. YOLO pose plus impact-sound detection finds every shot, and OpenStreetMap draws each hole. On top goes a broadcast-style overlay: a hole HUD, swing tracer, ball tracking, and cards with ball speed, carry and tempo. It can also cut a best-shots reel, or sync every impact to the kick drum of a song.
+
+<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog?style=for-the-badge&logo=github&label=golf-course-vlog&color=7EE787" alt="golf-course-vlog on GitHub"></a>
 
 <img src="assets/divider-lyrics.svg" width="100%" alt="">
 
@@ -79,17 +83,6 @@
 <b>A personal manual you can walk into.</b> Not a résumé page but a floating Three.js town: nine interiors to step into, holding my hobbies, collections, travel map and photography. Still under construction.
 
 <img src="https://img.shields.io/badge/🔒_private-施工中_·_coming_soon-A493FF?style=for-the-badge" alt="private, coming soon">
-
-<img src="assets/divider-golf.svg" width="100%" alt="">
-
-## ⛳ golf-course-vlog
-
-<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog：一场球的原片丢进来，一条整场 vlog 走出去。"></a>
-
-<b>一场球的原片丢进来，一条整场 vlog 走出去。</b>打完一场球拍了 70 多段素材，我把剪辑全流程写成了一个 Claude Code skill：YOLO 姿态加击球声找出每一杆，OpenStreetMap 画出每洞地图，再叠上转播风格的 UI，包括洞号 HUD、挥杆轨迹、球路追踪，以及球速、飞行距离和节奏比的数据卡。另外还能剪满意球精华，或者配一首歌，按底鼓把每一杆的击球卡在拍上。<br>
-<b>Raw round footage in, a full-course vlog out.</b> After a round with 70+ clips, I turned the whole edit into a Claude Code skill. YOLO pose plus impact-sound detection finds every shot, and OpenStreetMap draws each hole. On top goes a broadcast-style overlay: a hole HUD, swing tracer, ball tracking, and cards with ball speed, carry and tempo. It can also cut a best-shots reel, or sync every impact to the kick drum of a song.
-
-<a href="https://github.com/ezshrimps/golf-course-vlog"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog?style=for-the-badge&logo=github&label=golf-course-vlog&color=7EE787" alt="golf-course-vlog on GitHub"></a>
 
 <img src="assets/divider-end.svg" width="100%" alt="">
 
@@ -128,6 +121,6 @@
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-06 21:07 UTC</sub>
+<sub>last sync: 2026-11-06 21:21 UTC</sub>
 <!-- UPDATED:END -->
 </p>
