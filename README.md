@@ -18,10 +18,10 @@
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
 | 11-05 | **Zipline** | Mobility & Logistics | — | $1.5B | Paradigm + |
+| 11-05 | **CesiumAstro** | Defense | 股权+债务 | $730M | Janus Henderson |
 | 11-05 | **Harbinger Motors** | Mobility & Logistics | Series D+ | $240M | Tiger Global + |
 | 11-05 | **三呆科技** | Vertical Models | Series A | $200M | 基石资本 + |
 | 11-05 | **T-Therapeutics** | Life Sciences | Series B | $133M | Advent Life Sciences + |
-| 11-05 | **Ocient** | Data | Series C | $100M | BOKA Capital + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -132,6 +132,6 @@
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-06 23:05 UTC</sub>
+<sub>last sync: 2026-11-07 19:41 UTC</sub>
 <!-- UPDATED:END -->
 </p>
