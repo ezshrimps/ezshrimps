@@ -89,10 +89,10 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
 | 11-05 | **Zipline** | Mobility & Logistics | — | $1.5B | Paradigm + |
-| 11-05 | **CesiumAstro** | Defense | 股权+债务 | $730M | Janus Henderson |
+| 11-09 | **Onodrim Industries** | Defense | Series A | $300M | Lux Capital |
 | 11-05 | **Harbinger Motors** | Mobility & Logistics | Series D+ | $240M | Tiger Global + |
 | 11-05 | **三呆科技** | Vertical Models | Series A | $200M | 基石资本 + |
-| 11-05 | **T-Therapeutics** | Life Sciences | Series B | $133M | Advent Life Sciences + |
+| 11-05 | **Alethio Therapeutics** | Life Sciences | Series A | $90M | Sofinnova Partners + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -155,11 +155,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <br>
 
 <!-- ACTIVITY:START -->
+- `2026-11-09` [osvcut](https://github.com/ezshrimps/osvcut)
+- `2026-11-09` [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
+- `2026-11-09` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 - `2026-11-06` [personal-dashboard-skill](https://github.com/ezshrimps/personal-dashboard-skill)
 - `2026-11-06` [bp-parser-skill](https://github.com/ezshrimps/bp-parser-skill)
-- `2026-11-06` [golf-course-vlog-skill](https://github.com/ezshrimps/golf-course-vlog-skill)
-- `2026-11-05` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
-- `2026-03-21` [AI-Image-Gen-Arena-with-Replicate](https://github.com/ezshrimps/AI-Image-Gen-Arena-with-Replicate)
 <!-- ACTIVITY:END -->
 
 </details>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-08 20:00 UTC</sub>
+<sub>last sync: 2026-11-09 23:52 UTC</sub>
 <!-- UPDATED:END -->
 </p>
