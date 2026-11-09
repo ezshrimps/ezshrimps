@@ -5,6 +5,77 @@
 
 <a href="https://github.com/ezshrimps?tab=repositories"><img src="https://img.shields.io/github/stars/ezshrimps?style=for-the-badge&logo=github&label=stars&color=FFA657" alt="total stars"></a> <a href="https://github.com/ezshrimps?tab=followers"><img src="https://img.shields.io/github/followers/ezshrimps?style=for-the-badge&logo=github&label=followers&color=39D3BB" alt="followers"></a> <a href="https://ezshrimps.com"><img src="https://img.shields.io/badge/ezshrimps.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="ezshrimps.com"></a> <a href="https://svtr.ai"><img src="https://img.shields.io/badge/work-svtr.ai-0d1117?style=for-the-badge&logo=databricks&logoColor=FFA657" alt="svtr.ai"></a>
 
+<img src="assets/divider-skills.svg" width="100%" alt="">
+
+## 🧰 Claude Code skills
+
+<b>我把反复在做的事写成了 Claude Code skill，都开源在这里，装进 <code>&#126;/.claude/skills/</code> 就能用。</b><br>
+<b>Things I kept doing by hand, turned into open-source Claude Code skills. Drop one into <code>&#126;/.claude/skills/</code> and it works.</b>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ezshrimps/personal-dashboard-skill"><img src="assets/card-dashboard.svg" width="100%" alt="personal-dashboard-skill：聊几句，长出一个只属于你的每日面板。"></a><br>
+🗂️ <b><a href="https://github.com/ezshrimps/personal-dashboard-skill">personal-dashboard-skill</a></b><br>
+聊几句，长出一个只属于你的每日面板。<br>
+<sub>A short chat in, your own daily dashboard out.</sub><br>
+<a href="https://github.com/ezshrimps/personal-dashboard-skill"><img src="https://img.shields.io/github/stars/ezshrimps/personal-dashboard-skill?style=flat-square&logo=github&label=stars&color=58A6FF" alt="personal-dashboard-skill stars"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ezshrimps/golf-course-vlog-skill"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog-skill：一场球的原片丢进来，一条整场 vlog 走出去。"></a><br>
+⛳ <b><a href="https://github.com/ezshrimps/golf-course-vlog-skill">golf-course-vlog-skill</a></b><br>
+一场球的原片丢进来，一条整场 vlog 走出去。<br>
+<sub>Raw round footage in, a full-course vlog out.</sub><br>
+<a href="https://github.com/ezshrimps/golf-course-vlog-skill"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog-skill?style=flat-square&logo=github&label=stars&color=7EE787" alt="golf-course-vlog-skill stars"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ezshrimps/bp-parser-skill"><img src="assets/card-bpskill.svg" width="100%" alt="bp-parser-skill：一份 BP 丢进来，一份有出处的研究报告走出去。"></a><br>
+🔍 <b><a href="https://github.com/ezshrimps/bp-parser-skill">bp-parser-skill</a></b><br>
+一份 BP 丢进来，一份有出处的研究报告走出去。<br>
+<sub>Pitch deck in, an evidence-backed research report out.</sub><br>
+<a href="https://github.com/ezshrimps/bp-parser-skill"><img src="https://img.shields.io/github/stars/ezshrimps/bp-parser-skill?style=flat-square&logo=github&label=stars&color=F78166" alt="bp-parser-skill stars"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ezshrimps/claude-usage-skill"><img src="assets/card-claude-usage.svg" width="100%" alt="claude-usage-skill：每天用了多少 token，一格一格亮起来。"></a><br>
+🔥 <b><a href="https://github.com/ezshrimps/claude-usage-skill">claude-usage-skill</a></b><br>
+每天用了多少 token，一格一格亮起来。<br>
+<sub>My Claude Code tokens, one square per day (this heatmap updates daily).</sub><br>
+<a href="https://github.com/ezshrimps/claude-usage-skill"><img src="https://img.shields.io/github/stars/ezshrimps/claude-usage-skill?style=flat-square&logo=github&label=stars&color=FFA657" alt="claude-usage-skill stars"></a>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>每个 skill 都做了什么 · What each one does</b></summary>
+
+### 🗂️ [personal-dashboard-skill](https://github.com/ezshrimps/personal-dashboard-skill)
+
+<b>聊几句，长出一个只属于你的每日面板。</b>我自己的每日面板用了一阵子，朋友也想要一个，但每个人要管的东西都不一样。于是我把它拆成一块块可开关的模块，写成了一个 Claude Code skill：先问你是学生、上班族、求职中、自由职业，还是给长辈用，再推荐一个预设，让你勾选首页显示哪些模块。预设里没有的需求，比如喝水、练琴、吃药、心情，用几个问题变成自定义追踪器，不用写代码。一句话录入、银行提醒或粘贴账单记账、每日早报都在里面，界面支持中英文，货币和日期按你所在的地区来。<br>
+<b>A short chat in, your own daily dashboard out.</b> Friends wanted a dashboard like mine, but everyone tracks different things. So I split mine into blocks you can switch on and off and turned it into a Claude Code skill. It asks whether you're a student, working, job hunting, freelancing or setting this up for a parent, recommends a preset, and lets you pick what the home page shows. Anything the presets miss, like water, piano practice, medication or mood, becomes a custom tracker through a few questions, with no code. One-sentence entry, bank alerts or a pasted statement for spending, and a morning brief are built in. The UI is in Chinese or English, with currency and dates for your region.
+
+### ⛳ [golf-course-vlog-skill](https://github.com/ezshrimps/golf-course-vlog-skill)
+
+<b>一场球的原片丢进来，一条整场 vlog 走出去。</b>打完一场球拍了 70 多段素材，我把剪辑全流程写成了一个 Claude Code skill：YOLO 姿态加击球声找出每一杆，OpenStreetMap 画出每洞地图，再叠上转播风格的 UI，包括洞号 HUD、挥杆轨迹、球路追踪，以及球速、飞行距离和节奏比的数据卡。另外还能剪满意球精华，或者配一首歌，按底鼓把每一杆的击球卡在拍上。<br>
+<b>Raw round footage in, a full-course vlog out.</b> After a round with 70+ clips, I turned the whole edit into a Claude Code skill. YOLO pose plus impact-sound detection finds every shot, and OpenStreetMap draws each hole. On top goes a broadcast-style overlay: a hole HUD, swing tracer, ball tracking, and cards with ball speed, carry and tempo. It can also cut a best-shots reel, or sync every impact to the kick drum of a song.
+
+### 🔍 [bp-parser-skill](https://github.com/ezshrimps/bp-parser-skill)
+
+<b>一份 BP 丢进来，一份有出处的研究报告走出去。</b>看 BP 最费时间的不是读，而是查。这个 Claude Code skill 先从 deck 里拎出 8 到 15 条决定成败的关键主张，再去官网、新闻、融资记录、创始人履历和公司注册信息里逐条核实，标成「已核实 / 对不上 / 暂无独立佐证」，查不到从不写成造假。最后按团队、市场、产品、牵引力、壁垒五个维度打分，每一分都标明证据强弱，附上竞品和锚定原文的尽调问题。<br>
+<b>Pitch deck in, an evidence-backed research report out.</b> The slow part of reading a deck is checking it. This Claude Code skill pulls out the 8 to 15 claims the case rests on, checks each against the company site, press, funding records, founder history and registries, and labels it verified, conflicting or unconfirmed, never calling missing evidence false. It then scores team, market, product, traction and moat with an evidence level on every score, and adds competitors and DD questions anchored to the deck.
+
+### 🔥 [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
+
+<b>每天用 Claude Code 写了多少，一格一格亮起来。</b>我电脑上的定时任务每天读一遍本机 Claude Code 的会话记录，只数 token、不碰对话内容，累积进这个仓库，再画成上面这张热力图。统计脚本、30 天用量看板和这张图都打包成了 [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)。<br>
+<b>How much I build with Claude Code, one square per day.</b> A scheduled task on my machine reads my local Claude Code session logs every day, counts tokens only (never the conversations), keeps the history in this repo and redraws the heatmap above. The stats script, a 30-day usage dashboard and this card are packaged as [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill).
+
+```bash
+git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
+```
+
+</details>
+
 <img src="assets/divider-funding.svg" width="100%" alt="">
 
 ## 📡 funding.log
@@ -25,48 +96,6 @@
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
-
-<img src="assets/divider-claude.svg" width="100%" alt="">
-
-## 🔥 claude.log
-
-<a href="https://github.com/ezshrimps/claude-usage-skill"><img src="assets/card-claude-usage.svg" width="100%" alt="claude.log：每天 Claude Code 用掉多少 token 的热力图。"></a>
-
-<b>每天用 Claude Code 写了多少，一格一格亮起来。</b>我电脑上的定时任务每天读一遍本机 Claude Code 的会话记录，只数 token、不碰对话内容，累积进这个仓库，再画成上面这张热力图。统计脚本、30 天用量看板和这张图都打包成了 [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)。<br>
-<b>How much I build with Claude Code, one square per day.</b> A scheduled task on my machine reads my local Claude Code session logs every day, counts tokens only (never the conversations), keeps the history in this repo and redraws the heatmap above. The stats script, a 30-day usage dashboard and this card are packaged as [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill).
-
-<img src="assets/divider-dashboard.svg" width="100%" alt="">
-
-## 🗂️ personal-dashboard-skill
-
-<a href="https://github.com/ezshrimps/personal-dashboard-skill"><img src="assets/card-dashboard.svg" width="100%" alt="personal-dashboard-skill：聊几句，长出一个只属于你的每日面板。"></a>
-
-<b>聊几句，长出一个只属于你的每日面板。</b>我自己的每日面板用了一阵子，朋友也想要一个，但每个人要管的东西都不一样。于是我把它拆成一块块可开关的模块，写成了一个 Claude Code skill：先问你是学生、上班族、求职中、自由职业，还是给长辈用，再推荐一个预设，让你勾选首页显示哪些模块。预设里没有的需求，比如喝水、练琴、吃药、心情，用几个问题变成自定义追踪器，不用写代码。一句话录入、银行提醒或粘贴账单记账、每日早报都在里面，界面支持中英文，货币和日期按你所在的地区来。<br>
-<b>A short chat in, your own daily dashboard out.</b> Friends wanted a dashboard like mine, but everyone tracks different things. So I split mine into blocks you can switch on and off and turned it into a Claude Code skill. It asks whether you're a student, working, job hunting, freelancing or setting this up for a parent, recommends a preset, and lets you pick what the home page shows. Anything the presets miss, like water, piano practice, medication or mood, becomes a custom tracker through a few questions, with no code. One-sentence entry, bank alerts or a pasted statement for spending, and a morning brief are built in. The UI is in Chinese or English, with currency and dates for your region.
-
-<a href="https://github.com/ezshrimps/personal-dashboard-skill"><img src="https://img.shields.io/github/stars/ezshrimps/personal-dashboard-skill?style=for-the-badge&logo=github&label=personal-dashboard-skill&color=58A6FF" alt="personal-dashboard-skill on GitHub"></a>
-
-<img src="assets/divider-golf.svg" width="100%" alt="">
-
-## ⛳ golf-course-vlog-skill
-
-<a href="https://github.com/ezshrimps/golf-course-vlog-skill"><img src="assets/card-golf.svg" width="100%" alt="golf-course-vlog-skill：一场球的原片丢进来，一条整场 vlog 走出去。"></a>
-
-<b>一场球的原片丢进来，一条整场 vlog 走出去。</b>打完一场球拍了 70 多段素材，我把剪辑全流程写成了一个 Claude Code skill：YOLO 姿态加击球声找出每一杆，OpenStreetMap 画出每洞地图，再叠上转播风格的 UI，包括洞号 HUD、挥杆轨迹、球路追踪，以及球速、飞行距离和节奏比的数据卡。另外还能剪满意球精华，或者配一首歌，按底鼓把每一杆的击球卡在拍上。<br>
-<b>Raw round footage in, a full-course vlog out.</b> After a round with 70+ clips, I turned the whole edit into a Claude Code skill. YOLO pose plus impact-sound detection finds every shot, and OpenStreetMap draws each hole. On top goes a broadcast-style overlay: a hole HUD, swing tracer, ball tracking, and cards with ball speed, carry and tempo. It can also cut a best-shots reel, or sync every impact to the kick drum of a song.
-
-<a href="https://github.com/ezshrimps/golf-course-vlog-skill"><img src="https://img.shields.io/github/stars/ezshrimps/golf-course-vlog-skill?style=for-the-badge&logo=github&label=golf-course-vlog-skill&color=7EE787" alt="golf-course-vlog-skill on GitHub"></a>
-
-<img src="assets/divider-bpskill.svg" width="100%" alt="">
-
-## 🔍 bp-parser-skill
-
-<a href="https://github.com/ezshrimps/bp-parser-skill"><img src="assets/card-bpskill.svg" width="100%" alt="bp-parser-skill：一份 BP 丢进来，一份有出处的研究报告走出去。"></a>
-
-<b>一份 BP 丢进来，一份有出处的研究报告走出去。</b>看 BP 最费时间的不是读，而是查。这个 Claude Code skill 先从 deck 里拎出 8 到 15 条决定成败的关键主张，再去官网、新闻、融资记录、创始人履历和公司注册信息里逐条核实，标成「已核实 / 对不上 / 暂无独立佐证」，查不到从不写成造假。最后按团队、市场、产品、牵引力、壁垒五个维度打分，每一分都标明证据强弱，附上竞品和锚定原文的尽调问题。<br>
-<b>Pitch deck in, an evidence-backed research report out.</b> The slow part of reading a deck is checking it. This Claude Code skill pulls out the 8 to 15 claims the case rests on, checks each against the company site, press, funding records, founder history and registries, and labels it verified, conflicting or unconfirmed, never calling missing evidence false. It then scores team, market, product, traction and moat with an evidence level on every score, and adds competitors and DD questions anchored to the deck.
-
-<a href="https://github.com/ezshrimps/bp-parser-skill"><img src="https://img.shields.io/github/stars/ezshrimps/bp-parser-skill?style=for-the-badge&logo=github&label=bp-parser-skill&color=F78166" alt="bp-parser-skill on GitHub"></a>
 
 <img src="assets/divider-lyrics.svg" width="100%" alt="">
 
