@@ -26,6 +26,15 @@
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
 
+<img src="assets/divider-claude.svg" width="100%" alt="">
+
+## 🔥 claude.log
+
+<a href="https://github.com/ezshrimps/claude-usage-skill"><img src="assets/card-claude-usage.svg" width="100%" alt="claude.log：每天 Claude Code 用掉多少 token 的热力图。"></a>
+
+<b>每天用 Claude Code 写了多少，一格一格亮起来。</b>我电脑上的定时任务每天读一遍本机 Claude Code 的会话记录，只数 token、不碰对话内容，累积进这个仓库，再画成上面这张热力图。统计脚本、30 天用量看板和这张图都打包成了 [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)。<br>
+<b>How much I build with Claude Code, one square per day.</b> A scheduled task on my machine reads my local Claude Code session logs every day, counts tokens only (never the conversations), keeps the history in this repo and redraws the heatmap above. The stats script, a 30-day usage dashboard and this card are packaged as [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill).
+
 <img src="assets/divider-dashboard.svg" width="100%" alt="">
 
 ## 🗂️ personal-dashboard-skill

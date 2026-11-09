@@ -1,0 +1,410 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 372" width="1300" height="372" role="img" aria-labelledby="t">
+<title id="t">claude.log：每天用 Claude Code 的 token 热力图。累计 57.3 亿 token，25 个活跃日。</title>
+<style>@keyframes pulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="1298" height="370" rx="14" fill="#11161d" stroke="rgba(140,148,158,.28)"/>
+<rect x="1" y="40" width="4" height="64" rx="2" fill="#FFA657"/>
+<text x="52" y="72" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="30" font-weight="700" fill="#FFA657">claude.log</text>
+<text x="52" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="15" fill="#8b949e">每天 Claude Code 用掉的 token · daily tokens</text>
+<text x="652" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">累计 token</text>
+<text x="652" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#e6edf3">57.3 亿</text>
+<text x="652" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8b949e">5.7B tokens</text>
+<text x="802" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">活跃天数</text>
+<text x="802" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#e6edf3">25 天</text>
+<text x="802" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8b949e">since 2026-10-14</text>
+<text x="952" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">最长连续</text>
+<text x="952" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#e6edf3">20 天</text>
+<text x="952" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8b949e">current 20d</text>
+<text x="1102" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">峰值日</text>
+<text x="1102" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#e6edf3">10-28</text>
+<text x="1102" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8b949e">1.1B tokens</text>
+<text x="162" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">12 月</text>
+<text x="250" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">1 月</text>
+<text x="360" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">2 月</text>
+<text x="448" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">3 月</text>
+<text x="536" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">4 月</text>
+<text x="624" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">5 月</text>
+<text x="734" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">6 月</text>
+<text x="822" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">7 月</text>
+<text x="910" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">8 月</text>
+<text x="1020" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">9 月</text>
+<text x="1108" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">10 月</text>
+<text x="1218" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">11 月</text>
+<text x="82" y="203" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">一</text>
+<text x="82" y="247" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">三</text>
+<text x="82" y="291" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">五</text>
+<rect x="96" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-09 · 无记录</title></rect>
+<rect x="96" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-10 · 无记录</title></rect>
+<rect x="96" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-11 · 无记录</title></rect>
+<rect x="96" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-12 · 无记录</title></rect>
+<rect x="96" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-13 · 无记录</title></rect>
+<rect x="96" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-14 · 无记录</title></rect>
+<rect x="96" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-15 · 无记录</title></rect>
+<rect x="118" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-16 · 无记录</title></rect>
+<rect x="118" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-17 · 无记录</title></rect>
+<rect x="118" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-18 · 无记录</title></rect>
+<rect x="118" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-19 · 无记录</title></rect>
+<rect x="118" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-20 · 无记录</title></rect>
+<rect x="118" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-21 · 无记录</title></rect>
+<rect x="118" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-22 · 无记录</title></rect>
+<rect x="140" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-23 · 无记录</title></rect>
+<rect x="140" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-24 · 无记录</title></rect>
+<rect x="140" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-25 · 无记录</title></rect>
+<rect x="140" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-26 · 无记录</title></rect>
+<rect x="140" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-27 · 无记录</title></rect>
+<rect x="140" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-28 · 无记录</title></rect>
+<rect x="140" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-29 · 无记录</title></rect>
+<rect x="162" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-11-30 · 无记录</title></rect>
+<rect x="162" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-01 · 无记录</title></rect>
+<rect x="162" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-02 · 无记录</title></rect>
+<rect x="162" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-03 · 无记录</title></rect>
+<rect x="162" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-04 · 无记录</title></rect>
+<rect x="162" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-05 · 无记录</title></rect>
+<rect x="162" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-06 · 无记录</title></rect>
+<rect x="184" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-07 · 无记录</title></rect>
+<rect x="184" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-08 · 无记录</title></rect>
+<rect x="184" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-09 · 无记录</title></rect>
+<rect x="184" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-10 · 无记录</title></rect>
+<rect x="184" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-11 · 无记录</title></rect>
+<rect x="184" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-12 · 无记录</title></rect>
+<rect x="184" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-13 · 无记录</title></rect>
+<rect x="206" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-14 · 无记录</title></rect>
+<rect x="206" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-15 · 无记录</title></rect>
+<rect x="206" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-16 · 无记录</title></rect>
+<rect x="206" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-17 · 无记录</title></rect>
+<rect x="206" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-18 · 无记录</title></rect>
+<rect x="206" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-19 · 无记录</title></rect>
+<rect x="206" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-20 · 无记录</title></rect>
+<rect x="228" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-21 · 无记录</title></rect>
+<rect x="228" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-22 · 无记录</title></rect>
+<rect x="228" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-23 · 无记录</title></rect>
+<rect x="228" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-24 · 无记录</title></rect>
+<rect x="228" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-25 · 无记录</title></rect>
+<rect x="228" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-26 · 无记录</title></rect>
+<rect x="228" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-27 · 无记录</title></rect>
+<rect x="250" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-28 · 无记录</title></rect>
+<rect x="250" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-29 · 无记录</title></rect>
+<rect x="250" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-30 · 无记录</title></rect>
+<rect x="250" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2025-12-31 · 无记录</title></rect>
+<rect x="250" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-01 · 无记录</title></rect>
+<rect x="250" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-02 · 无记录</title></rect>
+<rect x="250" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-03 · 无记录</title></rect>
+<rect x="272" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-04 · 无记录</title></rect>
+<rect x="272" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-05 · 无记录</title></rect>
+<rect x="272" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-06 · 无记录</title></rect>
+<rect x="272" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-07 · 无记录</title></rect>
+<rect x="272" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-08 · 无记录</title></rect>
+<rect x="272" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-09 · 无记录</title></rect>
+<rect x="272" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-10 · 无记录</title></rect>
+<rect x="294" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-11 · 无记录</title></rect>
+<rect x="294" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-12 · 无记录</title></rect>
+<rect x="294" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-13 · 无记录</title></rect>
+<rect x="294" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-14 · 无记录</title></rect>
+<rect x="294" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-15 · 无记录</title></rect>
+<rect x="294" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-16 · 无记录</title></rect>
+<rect x="294" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-17 · 无记录</title></rect>
+<rect x="316" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-18 · 无记录</title></rect>
+<rect x="316" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-19 · 无记录</title></rect>
+<rect x="316" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-20 · 无记录</title></rect>
+<rect x="316" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-21 · 无记录</title></rect>
+<rect x="316" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-22 · 无记录</title></rect>
+<rect x="316" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-23 · 无记录</title></rect>
+<rect x="316" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-24 · 无记录</title></rect>
+<rect x="338" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-25 · 无记录</title></rect>
+<rect x="338" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-26 · 无记录</title></rect>
+<rect x="338" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-27 · 无记录</title></rect>
+<rect x="338" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-28 · 无记录</title></rect>
+<rect x="338" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-29 · 无记录</title></rect>
+<rect x="338" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-30 · 无记录</title></rect>
+<rect x="338" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-01-31 · 无记录</title></rect>
+<rect x="360" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-01 · 无记录</title></rect>
+<rect x="360" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-02 · 无记录</title></rect>
+<rect x="360" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-03 · 无记录</title></rect>
+<rect x="360" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-04 · 无记录</title></rect>
+<rect x="360" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-05 · 无记录</title></rect>
+<rect x="360" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-06 · 无记录</title></rect>
+<rect x="360" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-07 · 无记录</title></rect>
+<rect x="382" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-08 · 无记录</title></rect>
+<rect x="382" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-09 · 无记录</title></rect>
+<rect x="382" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-10 · 无记录</title></rect>
+<rect x="382" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-11 · 无记录</title></rect>
+<rect x="382" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-12 · 无记录</title></rect>
+<rect x="382" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-13 · 无记录</title></rect>
+<rect x="382" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-14 · 无记录</title></rect>
+<rect x="404" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-15 · 无记录</title></rect>
+<rect x="404" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-16 · 无记录</title></rect>
+<rect x="404" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-17 · 无记录</title></rect>
+<rect x="404" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-18 · 无记录</title></rect>
+<rect x="404" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-19 · 无记录</title></rect>
+<rect x="404" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-20 · 无记录</title></rect>
+<rect x="404" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-21 · 无记录</title></rect>
+<rect x="426" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-22 · 无记录</title></rect>
+<rect x="426" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-23 · 无记录</title></rect>
+<rect x="426" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-24 · 无记录</title></rect>
+<rect x="426" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-25 · 无记录</title></rect>
+<rect x="426" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-26 · 无记录</title></rect>
+<rect x="426" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-27 · 无记录</title></rect>
+<rect x="426" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-02-28 · 无记录</title></rect>
+<rect x="448" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-01 · 无记录</title></rect>
+<rect x="448" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-02 · 无记录</title></rect>
+<rect x="448" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-03 · 无记录</title></rect>
+<rect x="448" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-04 · 无记录</title></rect>
+<rect x="448" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-05 · 无记录</title></rect>
+<rect x="448" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-06 · 无记录</title></rect>
+<rect x="448" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-07 · 无记录</title></rect>
+<rect x="470" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-08 · 无记录</title></rect>
+<rect x="470" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-09 · 无记录</title></rect>
+<rect x="470" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-10 · 无记录</title></rect>
+<rect x="470" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-11 · 无记录</title></rect>
+<rect x="470" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-12 · 无记录</title></rect>
+<rect x="470" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-13 · 无记录</title></rect>
+<rect x="470" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-14 · 无记录</title></rect>
+<rect x="492" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-15 · 无记录</title></rect>
+<rect x="492" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-16 · 无记录</title></rect>
+<rect x="492" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-17 · 无记录</title></rect>
+<rect x="492" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-18 · 无记录</title></rect>
+<rect x="492" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-19 · 无记录</title></rect>
+<rect x="492" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-20 · 无记录</title></rect>
+<rect x="492" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-21 · 无记录</title></rect>
+<rect x="514" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-22 · 无记录</title></rect>
+<rect x="514" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-23 · 无记录</title></rect>
+<rect x="514" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-24 · 无记录</title></rect>
+<rect x="514" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-25 · 无记录</title></rect>
+<rect x="514" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-26 · 无记录</title></rect>
+<rect x="514" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-27 · 无记录</title></rect>
+<rect x="514" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-28 · 无记录</title></rect>
+<rect x="536" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-29 · 无记录</title></rect>
+<rect x="536" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-30 · 无记录</title></rect>
+<rect x="536" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-03-31 · 无记录</title></rect>
+<rect x="536" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-01 · 无记录</title></rect>
+<rect x="536" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-02 · 无记录</title></rect>
+<rect x="536" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-03 · 无记录</title></rect>
+<rect x="536" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-04 · 无记录</title></rect>
+<rect x="558" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-05 · 无记录</title></rect>
+<rect x="558" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-06 · 无记录</title></rect>
+<rect x="558" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-07 · 无记录</title></rect>
+<rect x="558" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-08 · 无记录</title></rect>
+<rect x="558" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-09 · 无记录</title></rect>
+<rect x="558" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-10 · 无记录</title></rect>
+<rect x="558" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-11 · 无记录</title></rect>
+<rect x="580" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-12 · 无记录</title></rect>
+<rect x="580" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-13 · 无记录</title></rect>
+<rect x="580" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-14 · 无记录</title></rect>
+<rect x="580" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-15 · 无记录</title></rect>
+<rect x="580" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-16 · 无记录</title></rect>
+<rect x="580" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-17 · 无记录</title></rect>
+<rect x="580" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-18 · 无记录</title></rect>
+<rect x="602" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-19 · 无记录</title></rect>
+<rect x="602" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-20 · 无记录</title></rect>
+<rect x="602" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-21 · 无记录</title></rect>
+<rect x="602" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-22 · 无记录</title></rect>
+<rect x="602" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-23 · 无记录</title></rect>
+<rect x="602" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-24 · 无记录</title></rect>
+<rect x="602" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-25 · 无记录</title></rect>
+<rect x="624" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-26 · 无记录</title></rect>
+<rect x="624" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-27 · 无记录</title></rect>
+<rect x="624" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-28 · 无记录</title></rect>
+<rect x="624" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-29 · 无记录</title></rect>
+<rect x="624" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-04-30 · 无记录</title></rect>
+<rect x="624" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-01 · 无记录</title></rect>
+<rect x="624" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-02 · 无记录</title></rect>
+<rect x="646" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-03 · 无记录</title></rect>
+<rect x="646" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-04 · 无记录</title></rect>
+<rect x="646" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-05 · 无记录</title></rect>
+<rect x="646" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-06 · 无记录</title></rect>
+<rect x="646" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-07 · 无记录</title></rect>
+<rect x="646" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-08 · 无记录</title></rect>
+<rect x="646" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-09 · 无记录</title></rect>
+<rect x="668" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-10 · 无记录</title></rect>
+<rect x="668" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-11 · 无记录</title></rect>
+<rect x="668" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-12 · 无记录</title></rect>
+<rect x="668" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-13 · 无记录</title></rect>
+<rect x="668" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-14 · 无记录</title></rect>
+<rect x="668" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-15 · 无记录</title></rect>
+<rect x="668" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-16 · 无记录</title></rect>
+<rect x="690" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-17 · 无记录</title></rect>
+<rect x="690" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-18 · 无记录</title></rect>
+<rect x="690" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-19 · 无记录</title></rect>
+<rect x="690" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-20 · 无记录</title></rect>
+<rect x="690" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-21 · 无记录</title></rect>
+<rect x="690" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-22 · 无记录</title></rect>
+<rect x="690" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-23 · 无记录</title></rect>
+<rect x="712" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-24 · 无记录</title></rect>
+<rect x="712" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-25 · 无记录</title></rect>
+<rect x="712" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-26 · 无记录</title></rect>
+<rect x="712" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-27 · 无记录</title></rect>
+<rect x="712" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-28 · 无记录</title></rect>
+<rect x="712" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-29 · 无记录</title></rect>
+<rect x="712" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-30 · 无记录</title></rect>
+<rect x="734" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-05-31 · 无记录</title></rect>
+<rect x="734" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-01 · 无记录</title></rect>
+<rect x="734" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-02 · 无记录</title></rect>
+<rect x="734" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-03 · 无记录</title></rect>
+<rect x="734" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-04 · 无记录</title></rect>
+<rect x="734" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-05 · 无记录</title></rect>
+<rect x="734" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-06 · 无记录</title></rect>
+<rect x="756" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-07 · 无记录</title></rect>
+<rect x="756" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-08 · 无记录</title></rect>
+<rect x="756" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-09 · 无记录</title></rect>
+<rect x="756" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-10 · 无记录</title></rect>
+<rect x="756" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-11 · 无记录</title></rect>
+<rect x="756" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-12 · 无记录</title></rect>
+<rect x="756" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-13 · 无记录</title></rect>
+<rect x="778" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-14 · 无记录</title></rect>
+<rect x="778" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-15 · 无记录</title></rect>
+<rect x="778" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-16 · 无记录</title></rect>
+<rect x="778" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-17 · 无记录</title></rect>
+<rect x="778" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-18 · 无记录</title></rect>
+<rect x="778" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-19 · 无记录</title></rect>
+<rect x="778" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-20 · 无记录</title></rect>
+<rect x="800" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-21 · 无记录</title></rect>
+<rect x="800" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-22 · 无记录</title></rect>
+<rect x="800" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-23 · 无记录</title></rect>
+<rect x="800" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-24 · 无记录</title></rect>
+<rect x="800" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-25 · 无记录</title></rect>
+<rect x="800" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-26 · 无记录</title></rect>
+<rect x="800" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-27 · 无记录</title></rect>
+<rect x="822" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-28 · 无记录</title></rect>
+<rect x="822" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-29 · 无记录</title></rect>
+<rect x="822" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-06-30 · 无记录</title></rect>
+<rect x="822" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-01 · 无记录</title></rect>
+<rect x="822" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-02 · 无记录</title></rect>
+<rect x="822" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-03 · 无记录</title></rect>
+<rect x="822" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-04 · 无记录</title></rect>
+<rect x="844" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-05 · 无记录</title></rect>
+<rect x="844" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-06 · 无记录</title></rect>
+<rect x="844" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-07 · 无记录</title></rect>
+<rect x="844" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-08 · 无记录</title></rect>
+<rect x="844" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-09 · 无记录</title></rect>
+<rect x="844" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-10 · 无记录</title></rect>
+<rect x="844" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-11 · 无记录</title></rect>
+<rect x="866" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-12 · 无记录</title></rect>
+<rect x="866" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-13 · 无记录</title></rect>
+<rect x="866" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-14 · 无记录</title></rect>
+<rect x="866" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-15 · 无记录</title></rect>
+<rect x="866" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-16 · 无记录</title></rect>
+<rect x="866" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-17 · 无记录</title></rect>
+<rect x="866" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-18 · 无记录</title></rect>
+<rect x="888" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-19 · 无记录</title></rect>
+<rect x="888" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-20 · 无记录</title></rect>
+<rect x="888" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-21 · 无记录</title></rect>
+<rect x="888" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-22 · 无记录</title></rect>
+<rect x="888" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-23 · 无记录</title></rect>
+<rect x="888" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-24 · 无记录</title></rect>
+<rect x="888" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-25 · 无记录</title></rect>
+<rect x="910" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-26 · 无记录</title></rect>
+<rect x="910" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-27 · 无记录</title></rect>
+<rect x="910" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-28 · 无记录</title></rect>
+<rect x="910" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-29 · 无记录</title></rect>
+<rect x="910" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-30 · 无记录</title></rect>
+<rect x="910" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-07-31 · 无记录</title></rect>
+<rect x="910" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-01 · 无记录</title></rect>
+<rect x="932" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-02 · 无记录</title></rect>
+<rect x="932" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-03 · 无记录</title></rect>
+<rect x="932" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-04 · 无记录</title></rect>
+<rect x="932" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-05 · 无记录</title></rect>
+<rect x="932" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-06 · 无记录</title></rect>
+<rect x="932" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-07 · 无记录</title></rect>
+<rect x="932" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-08 · 无记录</title></rect>
+<rect x="954" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-09 · 无记录</title></rect>
+<rect x="954" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-10 · 无记录</title></rect>
+<rect x="954" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-11 · 无记录</title></rect>
+<rect x="954" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-12 · 无记录</title></rect>
+<rect x="954" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-13 · 无记录</title></rect>
+<rect x="954" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-14 · 无记录</title></rect>
+<rect x="954" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-15 · 无记录</title></rect>
+<rect x="976" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-16 · 无记录</title></rect>
+<rect x="976" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-17 · 无记录</title></rect>
+<rect x="976" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-18 · 无记录</title></rect>
+<rect x="976" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-19 · 无记录</title></rect>
+<rect x="976" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-20 · 无记录</title></rect>
+<rect x="976" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-21 · 无记录</title></rect>
+<rect x="976" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-22 · 无记录</title></rect>
+<rect x="998" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-23 · 无记录</title></rect>
+<rect x="998" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-24 · 无记录</title></rect>
+<rect x="998" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-25 · 无记录</title></rect>
+<rect x="998" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-26 · 无记录</title></rect>
+<rect x="998" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-27 · 无记录</title></rect>
+<rect x="998" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-28 · 无记录</title></rect>
+<rect x="998" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-29 · 无记录</title></rect>
+<rect x="1020" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-30 · 无记录</title></rect>
+<rect x="1020" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-08-31 · 无记录</title></rect>
+<rect x="1020" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-01 · 无记录</title></rect>
+<rect x="1020" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-02 · 无记录</title></rect>
+<rect x="1020" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-03 · 无记录</title></rect>
+<rect x="1020" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-04 · 无记录</title></rect>
+<rect x="1020" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-05 · 无记录</title></rect>
+<rect x="1042" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-06 · 无记录</title></rect>
+<rect x="1042" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-07 · 无记录</title></rect>
+<rect x="1042" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-08 · 无记录</title></rect>
+<rect x="1042" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-09 · 无记录</title></rect>
+<rect x="1042" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-10 · 无记录</title></rect>
+<rect x="1042" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-11 · 无记录</title></rect>
+<rect x="1042" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-12 · 无记录</title></rect>
+<rect x="1064" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-13 · 无记录</title></rect>
+<rect x="1064" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-14 · 无记录</title></rect>
+<rect x="1064" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-15 · 无记录</title></rect>
+<rect x="1064" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-16 · 无记录</title></rect>
+<rect x="1064" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-17 · 无记录</title></rect>
+<rect x="1064" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-18 · 无记录</title></rect>
+<rect x="1064" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-19 · 无记录</title></rect>
+<rect x="1086" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-20 · 无记录</title></rect>
+<rect x="1086" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-21 · 无记录</title></rect>
+<rect x="1086" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-22 · 无记录</title></rect>
+<rect x="1086" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-23 · 无记录</title></rect>
+<rect x="1086" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-24 · 无记录</title></rect>
+<rect x="1086" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-25 · 无记录</title></rect>
+<rect x="1086" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-26 · 无记录</title></rect>
+<rect x="1108" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-27 · 无记录</title></rect>
+<rect x="1108" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-28 · 无记录</title></rect>
+<rect x="1108" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-29 · 无记录</title></rect>
+<rect x="1108" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-09-30 · 无记录</title></rect>
+<rect x="1108" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-01 · 无记录</title></rect>
+<rect x="1108" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-02 · 无记录</title></rect>
+<rect x="1108" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-03 · 无记录</title></rect>
+<rect x="1130" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-04 · 无记录</title></rect>
+<rect x="1130" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-05 · 无记录</title></rect>
+<rect x="1130" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-06 · 无记录</title></rect>
+<rect x="1130" y="234" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-07 · 无记录</title></rect>
+<rect x="1130" y="256" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-08 · 无记录</title></rect>
+<rect x="1130" y="278" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-09 · 无记录</title></rect>
+<rect x="1130" y="300" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-10 · 无记录</title></rect>
+<rect x="1152" y="168" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-11 · 无记录</title></rect>
+<rect x="1152" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-12 · 无记录</title></rect>
+<rect x="1152" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-13 · 无记录</title></rect>
+<rect x="1152" y="234" width="18" height="18" rx="3" fill="#5b4738"><title>2026-10-14 · 87,983 tokens</title></rect>
+<rect x="1152" y="256" width="18" height="18" rx="3" fill="#8d6442"><title>2026-10-15 · 83,251,635 tokens</title></rect>
+<rect x="1152" y="278" width="18" height="18" rx="3" fill="#5b4738"><title>2026-10-16 · 35,405,467 tokens</title></rect>
+<rect x="1152" y="300" width="18" height="18" rx="3" fill="#8d6442"><title>2026-10-17 · 88,632,437 tokens</title></rect>
+<rect x="1174" y="168" width="18" height="18" rx="3" fill="#c4844c"><title>2026-10-18 · 107,796,793 tokens</title></rect>
+<rect x="1174" y="190" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-19 · 无记录</title></rect>
+<rect x="1174" y="212" width="18" height="18" rx="3" fill="#1b222c"><title>2026-10-20 · 无记录</title></rect>
+<rect x="1174" y="234" width="18" height="18" rx="3" fill="#c4844c"><title>2026-10-21 · 325,861,760 tokens</title></rect>
+<rect x="1174" y="256" width="18" height="18" rx="3" fill="#5b4738"><title>2026-10-22 · 13,760,168 tokens</title></rect>
+<rect x="1174" y="278" width="18" height="18" rx="3" fill="#5b4738"><title>2026-10-23 · 11,903,071 tokens</title></rect>
+<rect x="1174" y="300" width="18" height="18" rx="3" fill="#5b4738"><title>2026-10-24 · 41,470,092 tokens</title></rect>
+<rect x="1196" y="168" width="18" height="18" rx="3" fill="#ffa657"><title>2026-10-25 · 339,202,166 tokens</title></rect>
+<rect x="1196" y="190" width="18" height="18" rx="3" fill="#8d6442"><title>2026-10-26 · 95,769,093 tokens</title></rect>
+<rect x="1196" y="212" width="18" height="18" rx="3" fill="#ffa657"><title>2026-10-27 · 538,468,352 tokens</title></rect>
+<rect x="1196" y="234" width="18" height="18" rx="3" fill="#ffa657"><title>2026-10-28 · 1,061,430,630 tokens</title></rect>
+<rect x="1196" y="256" width="18" height="18" rx="3" fill="#c4844c"><title>2026-10-29 · 279,588,126 tokens</title></rect>
+<rect x="1196" y="278" width="18" height="18" rx="3" fill="#ffa657"><title>2026-10-30 · 389,451,699 tokens</title></rect>
+<rect x="1196" y="300" width="18" height="18" rx="3" fill="#5b4738"><title>2026-10-31 · 52,555,426 tokens</title></rect>
+<rect x="1218" y="168" width="18" height="18" rx="3" fill="#5b4738"><title>2026-11-01 · 62,885,681 tokens</title></rect>
+<rect x="1218" y="190" width="18" height="18" rx="3" fill="#8d6442"><title>2026-11-02 · 86,676,753 tokens</title></rect>
+<rect x="1218" y="212" width="18" height="18" rx="3" fill="#8d6442"><title>2026-11-03 · 99,665,554 tokens</title></rect>
+<rect x="1218" y="234" width="18" height="18" rx="3" fill="#c4844c"><title>2026-11-04 · 127,317,530 tokens</title></rect>
+<rect x="1218" y="256" width="18" height="18" rx="3" fill="#8d6442"><title>2026-11-05 · 83,883,404 tokens</title></rect>
+<rect x="1218" y="278" width="18" height="18" rx="3" fill="#c4844c"><title>2026-11-06 · 321,944,259 tokens</title></rect>
+<rect x="1218" y="300" width="18" height="18" rx="3" fill="#c4844c"><title>2026-11-07 · 305,382,810 tokens</title></rect>
+<rect x="1240" y="168" width="18" height="18" rx="3" fill="#ffa657"><title>2026-11-08 · 460,584,249 tokens</title></rect>
+<rect x="1240" y="190" width="18" height="18" rx="3" fill="#ffa657"><title>2026-11-09 · 717,445,639 tokens</title></rect>
+<rect class="pulse" x="1240" y="190" width="18" height="18" rx="3" fill="none" stroke="#FFA657" stroke-width="1.5"/>
+<text x="1068" y="357" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">少</text>
+<rect x="1078" y="344" width="18" height="18" rx="3" fill="#1b222c"/>
+<rect x="1100" y="344" width="18" height="18" rx="3" fill="#5b4738"/>
+<rect x="1122" y="344" width="18" height="18" rx="3" fill="#8d6442"/>
+<rect x="1144" y="344" width="18" height="18" rx="3" fill="#c4844c"/>
+<rect x="1166" y="344" width="18" height="18" rx="3" fill="#ffa657"/>
+<text x="1194" y="357" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">多</text>
+<text x="96" y="357" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">近 53 周有 25 天在用 · 含缓存读取的全部 token · 本机每天自动统计 · updated 2026-11-09 13:32 UTC-08:00</text>
+</svg>
