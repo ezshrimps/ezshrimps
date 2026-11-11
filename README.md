@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-09 | **Onodrim Industries** | Defense | Series A | $300M | Lux Capital |
-| 11-09 | **Nominal** | Manufacturing | Series C | $240M | 光速创投 + |
-| 11-06 | **Future Secure AI** | AI Agents | 债务/可转债 | $82M | — |
-| 11-09 | **Project Omega** | Climate | Series A | $80M | B Capital |
-| 11-09 | **优理奇** | Robotics | Series A | $69.4M | — |
+| 11-10 | **Mercor** | Enterprise | Series D+ | $750M | — |
+| 11-10 | **Path Robotics** | Robotics | Series D+ | $300M | Georgian |
+| 11-10 | **Vumedi** | Education | Series B | $104M | Oak HC/FT |
+| 11-10 | **Daylight** | Security | Series B | $80M | Goldman Sachs Alternatives |
+| 11-10 | **Charta Health** | Life Sciences | Series B | $55M | Insight Partners |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -155,7 +155,7 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <br>
 
 <!-- ACTIVITY:START -->
-- `2026-11-10` [osvcut](https://github.com/ezshrimps/osvcut)
+- `2026-11-11` [osvcut](https://github.com/ezshrimps/osvcut)
 - `2026-11-09` [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
 - `2026-11-09` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 - `2026-11-06` [personal-dashboard-skill](https://github.com/ezshrimps/personal-dashboard-skill)
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-10 21:29 UTC</sub>
+<sub>last sync: 2026-11-11 22:20 UTC</sub>
 <!-- UPDATED:END -->
 </p>
