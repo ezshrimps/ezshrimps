@@ -89,10 +89,10 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
 | 11-10 | **Mercor** | Enterprise | Series D+ | $750M | — |
+| 11-11 | **Torus** | Compute | Series C | $500M | Magnetar Capital |
 | 11-10 | **Path Robotics** | Robotics | Series D+ | $300M | Georgian |
 | 11-10 | **Vumedi** | Education | Series B | $104M | Oak HC/FT |
-| 11-10 | **Daylight** | Security | Series B | $80M | Goldman Sachs Alternatives |
-| 11-10 | **Charta Health** | Life Sciences | Series B | $55M | Insight Partners |
+| 11-11 | **Rox** | Retail & Marketing | Series B | $100M | General Catalyst + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -155,11 +155,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <br>
 
 <!-- ACTIVITY:START -->
+- `2026-11-12` [embervow](https://github.com/ezshrimps/embervow)
+- `2026-11-12` [wenjian-rhythm](https://github.com/ezshrimps/wenjian-rhythm)
 - `2026-11-11` [osvcut](https://github.com/ezshrimps/osvcut)
 - `2026-11-09` [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
 - `2026-11-09` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
-- `2026-11-06` [personal-dashboard-skill](https://github.com/ezshrimps/personal-dashboard-skill)
-- `2026-11-06` [bp-parser-skill](https://github.com/ezshrimps/bp-parser-skill)
 <!-- ACTIVITY:END -->
 
 </details>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-11 22:20 UTC</sub>
+<sub>last sync: 2026-11-12 21:56 UTC</sub>
 <!-- UPDATED:END -->
 </p>
