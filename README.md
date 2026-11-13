@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-10 | **Mercor** | Enterprise | Series D+ | $750M | — |
-| 11-11 | **Torus** | Compute | Series C | $500M | Magnetar Capital |
-| 11-10 | **Path Robotics** | Robotics | Series D+ | $300M | Georgian |
-| 11-10 | **Vumedi** | Education | Series B | $104M | Oak HC/FT |
-| 11-11 | **Rox** | Retail & Marketing | Series B | $100M | General Catalyst + |
+| 11-12 | **UFORCE** | Defense | Series A | $700M | Valor Equity Partners + |
+| 11-12 | **Q-Ctrl** | Compute | Series C | $290M | Salesforce Ventures |
+| 11-12 | **曦选创智** | Compute | Angel | $69.4M | 纪源资本 + |
+| 11-12 | **阜时科技** | Hardware | Series C | $55.6M | — |
+| 11-12 | **Kindo** | Security | — | $30M | Crosspoint Capital + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-12 21:56 UTC</sub>
+<sub>last sync: 2026-11-13 21:41 UTC</sub>
 <!-- UPDATED:END -->
 </p>
