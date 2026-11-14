@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-12 | **UFORCE** | Defense | Series A | $700M | Valor Equity Partners + |
+| 11-12 | **Mirendil** | Developer Tools | Series A | $1B | Clearlake Capital + |
 | 11-12 | **Q-Ctrl** | Compute | Series C | $290M | Salesforce Ventures |
+| 11-12 | **Databento** | Fintech | Series C | $100M | Fifth Down Capital |
 | 11-12 | **曦选创智** | Compute | Angel | $69.4M | 纪源资本 + |
 | 11-12 | **阜时科技** | Hardware | Series C | $55.6M | — |
-| 11-12 | **Kindo** | Security | — | $30M | Crosspoint Capital + |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-13 21:41 UTC</sub>
+<sub>last sync: 2026-11-14 20:11 UTC</sub>
 <!-- UPDATED:END -->
 </p>
