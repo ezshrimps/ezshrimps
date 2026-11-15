@@ -253,13 +253,22 @@
    "sessions": 13
   },
   "2026-11-13": {
-   "tot": 228891398,
-   "out": 726029,
-   "inp": 1594,
-   "cr": 226077407,
-   "cw": 2086368,
-   "req": 682,
+   "tot": 248105300,
+   "out": 777356,
+   "inp": 1654,
+   "cr": 244443995,
+   "cw": 2882295,
+   "req": 707,
    "sessions": 8
+  },
+  "2026-11-14": {
+   "tot": 203626864,
+   "out": 908716,
+   "inp": 1784,
+   "cr": 199761384,
+   "cw": 2954980,
+   "req": 800,
+   "sessions": 12
   }
  },
  "note": "Daily Claude Code token totals from local session logs (no content, no cost). Updated by claude-usage-skill."
