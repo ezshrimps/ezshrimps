@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-12 | **Q-Ctrl** | Compute | Series C | $290M | Salesforce Ventures |
-| 11-12 | **曦选创智** | Compute | Angel | $69.4M | 纪源资本 + |
-| 11-12 | **阜时科技** | Hardware | Series C | $55.6M | — |
+| 11-16 | **Corma** | Security | Series A | $125M | 恩颐投资 |
+| 11-16 | **Noeri** | Dev Platforms | — | $110M | 门罗风投 |
+| 11-16 | **Remedy Robotics** | Robotics | Series B | $62M | DCVC |
 | 11-16 | **Dreamteam** | Enterprise | — | $53M | Accel |
-| 11-16 | **Bharat Semi** | Compute | Seed | $24M | InfoEdge Ventures + |
+| 11-16 | **Knit Health** | Life Sciences | Series A | $35M | 恩颐投资 |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -155,10 +155,10 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <br>
 
 <!-- ACTIVITY:START -->
+- `2026-11-17` [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
 - `2026-11-12` [embervow](https://github.com/ezshrimps/embervow)
 - `2026-11-12` [wenjian-rhythm](https://github.com/ezshrimps/wenjian-rhythm)
 - `2026-11-11` [osvcut](https://github.com/ezshrimps/osvcut)
-- `2026-11-09` [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
 - `2026-11-09` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 <!-- ACTIVITY:END -->
 
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-16 23:52 UTC</sub>
+<sub>last sync: 2026-11-17 23:12 UTC</sub>
 <!-- UPDATED:END -->
 </p>
