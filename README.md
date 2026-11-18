@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-16 | **Corma** | Security | Series A | $125M | 恩颐投资 |
-| 11-16 | **Noeri** | Dev Platforms | — | $110M | 门罗风投 |
-| 11-16 | **Remedy Robotics** | Robotics | Series B | $62M | DCVC |
-| 11-16 | **Dreamteam** | Enterprise | — | $53M | Accel |
-| 11-16 | **Knit Health** | Life Sciences | Series A | $35M | 恩颐投资 |
+| 11-17 | **Genesis AI** | Vertical Models | Series A | $500M | Premji Invest + |
+| 11-18 | **Payhawk** | Fintech | Series C | $280M | Goldman Sachs Alternatives |
+| 11-17 | **Model ML** | Fintech | Series B | $250M | General Atlantic + |
+| 11-17 | **LanceDB** | Data | Series B | $57.5M | Bessemer Venture Partners + |
+| 11-17 | **Compute Desk** | Compute | Seed | $45M | 光速创投 |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-17 23:12 UTC</sub>
+<sub>last sync: 2026-11-18 22:43 UTC</sub>
 <!-- UPDATED:END -->
 </p>
