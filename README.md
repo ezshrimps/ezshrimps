@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-17 | **Genesis AI** | Vertical Models | Series A | $500M | Premji Invest + |
 | 11-18 | **Payhawk** | Fintech | Series C | $280M | Goldman Sachs Alternatives |
-| 11-17 | **Model ML** | Fintech | Series B | $250M | General Atlantic + |
-| 11-17 | **LanceDB** | Data | Series B | $57.5M | Bessemer Venture Partners + |
-| 11-17 | **Compute Desk** | Compute | Seed | $45M | 光速创投 |
+| 11-18 | **Hone Health** | Life Sciences | 股权+债务 | $228M | MarcyPen Capital Partners |
+| 11-19 | **镁伽科技** | Life Sciences | — | $200M | — |
+| 11-18 | **BrightAI** | Manufacturing | — | $97M | Smith Point Capital |
+| 11-18 | **Linq** | Fintech | Series B | $90M | Andreessen Horowitz |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -155,11 +155,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <br>
 
 <!-- ACTIVITY:START -->
+- `2026-11-19` [vlog-edit-skill](https://github.com/ezshrimps/vlog-edit-skill)
 - `2026-11-17` [claude-usage-skill](https://github.com/ezshrimps/claude-usage-skill)
 - `2026-11-12` [embervow](https://github.com/ezshrimps/embervow)
 - `2026-11-12` [wenjian-rhythm](https://github.com/ezshrimps/wenjian-rhythm)
 - `2026-11-11` [osvcut](https://github.com/ezshrimps/osvcut)
-- `2026-11-09` [izzy-daily](https://github.com/ezshrimps/izzy-daily)
 <!-- ACTIVITY:END -->
 
 </details>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-18 22:43 UTC</sub>
+<sub>last sync: 2026-11-19 22:47 UTC</sub>
 <!-- UPDATED:END -->
 </p>
