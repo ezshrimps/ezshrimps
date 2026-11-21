@@ -91,8 +91,8 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 | 11-19 | **Anthropic** | Foundation Models | IPO | $91.6B | — |
 | 11-19 | **镁伽科技** | Life Sciences | — | $200M | — |
 | 11-19 | **Everful** | Retail & Marketing | Series A | $48.5M | Vertex Ventures Southeast Asia & India + |
-| 11-18 | **Pulley** | PropTech | Series B | $41M | Jump Capital |
 | 11-19 | **诚恒微** | Compute | Series A | $27.8M | — |
+| 11-19 | **Metano** | Security | Seed | $12M | Sierra Ventures |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-20 22:24 UTC</sub>
+<sub>last sync: 2026-11-21 21:15 UTC</sub>
 <!-- UPDATED:END -->
 </p>
