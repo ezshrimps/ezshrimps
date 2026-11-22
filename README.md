@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-21 21:15 UTC</sub>
+<sub>last sync: 2026-11-22 21:20 UTC</sub>
 <!-- UPDATED:END -->
 </p>
