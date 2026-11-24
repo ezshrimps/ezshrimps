@@ -89,10 +89,10 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
 | 11-19 | **Anthropic** | Foundation Models | IPO | $91.6B | — |
-| 11-19 | **镁伽科技** | Life Sciences | — | $200M | — |
+| 11-23 | **Marlowe** | Compute | Seed | $277M | Accel |
+| 11-22 | **至简动力** | Mobility & Logistics | Series A | $100M | 蚂蚁集团 |
+| 11-23 | **Agon** | Defense | Series A | $70M | Northzone |
 | 11-19 | **Everful** | Retail & Marketing | Series A | $48.5M | Vertex Ventures Southeast Asia & India + |
-| 11-19 | **诚恒微** | Compute | Series A | $27.8M | — |
-| 11-19 | **Metano** | Security | Seed | $12M | Sierra Ventures |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-22 21:20 UTC</sub>
+<sub>last sync: 2026-11-24 02:38 UTC</sub>
 <!-- UPDATED:END -->
 </p>
