@@ -88,7 +88,7 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-25 | **Bound** | Fintech | 债务/可转债 | $50M | — |
+| 11-26 | **Finnable** | Fintech | Series C | $43.8M | Bharat Value Fund |
 | 11-25 | **Every** | Productivity | Series A | $17.5M | IA Ventures |
 | 11-26 | **Green Aero** | Defense | Series A | $14M | Crane Venture Partners |
 | 11-26 | **XEBO.ai** | Enterprise | Series A | $10.5M | Emirates Growth Fund |
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-27 00:08 UTC</sub>
+<sub>last sync: 2026-11-27 23:46 UTC</sub>
 <!-- UPDATED:END -->
 </p>
