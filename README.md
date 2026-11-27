@@ -88,11 +88,11 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 <!-- FUNDING:START -->
 | Date | Company | Sector | Round | Amount | Lead |
 |---|---|---|---|---:|---|
-| 11-23 | **Marlowe** | Compute | Seed | $277M | Accel |
-| 11-24 | **Epochal** | Data | — | $100M | — |
-| 11-24 | **Avicena** | Interconnect | Series C | $100M | InterVest |
-| 11-24 | **Zipher** | Data | Series A | $53M | TLV Partners + |
 | 11-25 | **Bound** | Fintech | 债务/可转债 | $50M | — |
+| 11-25 | **Every** | Productivity | Series A | $17.5M | IA Ventures |
+| 11-26 | **Green Aero** | Defense | Series A | $14M | Crane Venture Partners |
+| 11-26 | **XEBO.ai** | Enterprise | Series A | $10.5M | Emirates Growth Fund |
+| 11-25 | **Mechademy** | Manufacturing | Series A | $9.5M | Silverton Partners |
 <!-- FUNDING:END -->
 
 <sub>→ full stream at [svtr.ai/stream](https://svtr.ai/stream?lang=en)</sub>
@@ -170,6 +170,6 @@ git clone https://github.com/ezshrimps/<skill-repo> ~/.claude/skills/<name>
 
 <p align="center">
 <!-- UPDATED:START -->
-<sub>last sync: 2026-11-25 23:49 UTC</sub>
+<sub>last sync: 2026-11-27 00:08 UTC</sub>
 <!-- UPDATED:END -->
 </p>
